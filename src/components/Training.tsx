@@ -18,6 +18,8 @@ interface Props {
 }
 
 const TRAINING_TITLE: Record<SessionConfig['training'], string> = {
+  // App routes 'universal' to UniversalTraining; kept so the map stays total.
+  universal: 'Trening uniwersalny',
   'pl-ru-choice': 'Polski → Rosyjski',
   'ru-pl-typed': 'Rosyjski → Polski',
   'audio-ru-choice': 'Słuchanie → Rosyjski',

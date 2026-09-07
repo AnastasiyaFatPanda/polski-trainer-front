@@ -13,6 +13,12 @@ interface Props {
 
 const TRAININGS: { id: TrainingId; title: string; flow: string; desc: string }[] = [
   {
+    id: 'universal',
+    title: 'Uniwersalny',
+    flow: '📖 → PL/RU → 🔊',
+    desc: 'Mała porcja słówek przez cztery etapy: poznaj, rozpoznaj, napisz, posłuchaj i napisz.',
+  },
+  {
     id: 'pl-ru-choice',
     title: 'Rozpoznawanie',
     flow: 'PL → RU',
@@ -73,7 +79,7 @@ export default function Home({ doc, progress, config, onConfigChange, onStart }:
     onConfigChange({ ...config, types: next.length ? next : [type] });
   };
 
-  const lengths = sessionLengthOptions(pool.length);
+  const lengths = sessionLengthOptions(pool.length, config.training);
 
   return (
     <>
@@ -86,7 +92,14 @@ export default function Home({ doc, progress, config, onConfigChange, onStart }:
               key={training.id}
               className="training-card"
               aria-pressed={config.training === training.id}
-              onClick={() => onConfigChange({ ...config, training: training.id })}
+              onClick={() => {
+                const allowed = sessionLengthOptions(pool.length, training.id);
+                onConfigChange({
+                  ...config,
+                  training: training.id,
+                  length: allowed.includes(config.length) ? config.length : allowed[0],
+                });
+              }}
             >
               <span className="flow">{training.flow}</span>
               <span className="title">{training.title}</span>
@@ -141,7 +154,7 @@ export default function Home({ doc, progress, config, onConfigChange, onStart }:
 
           <label className="row" style={{ gap: 8, marginLeft: 'auto' }}>
             <span className="muted" style={{ fontSize: 13 }}>
-              Pytań:
+              {config.training === 'universal' ? 'Słówek:' : 'Pytań:'}
             </span>
             <select
               value={config.length}
@@ -161,7 +174,11 @@ export default function Home({ doc, progress, config, onConfigChange, onStart }:
           <span className="muted" style={{ fontSize: 13.5 }}>
             {pool.length === 0
               ? 'Brak słów dla tego filtra.'
-              : `${pool.length} ${pool.length === 1 ? 'pozycja' : 'pozycji'} w puli`}
+              : config.training === 'universal'
+                ? `Lekcja: ${Math.min(config.length, pool.length)} ${
+                    Math.min(config.length, pool.length) === 1 ? 'słówko' : 'słówek'
+                  } × 4 etapy${pool.length < config.length ? ' (tyle jest w zestawie)' : ''}`
+                : `${pool.length} ${pool.length === 1 ? 'pozycja' : 'pozycji'} w puli`}
           </span>
           <button className="btn primary" disabled={pool.length === 0} onClick={onStart}>
             Zacznij trening →

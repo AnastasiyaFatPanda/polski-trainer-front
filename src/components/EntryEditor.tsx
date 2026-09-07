@@ -1,21 +1,13 @@
 import { useState } from 'react';
 import type { EntryType, VocabEntry, Vocabulary } from '../types';
+import { nowStamp } from '../lib/vocabSort';
+import { uniqueSlug } from '../lib/slug';
 
 interface Props {
   doc: Vocabulary;
   entry: VocabEntry | null;
   onCancel: () => void;
   onSave: (entry: VocabEntry) => void;
-}
-
-function slug(value: string): string {
-  const fold: Record<string, string> = { ą: 'a', ć: 'c', ę: 'e', ł: 'l', ń: 'n', ó: 'o', ś: 's', ź: 'z', ż: 'z' };
-  return value
-    .toLowerCase()
-    .replace(/[ąćęłńóśźż]/g, (ch) => fold[ch] ?? ch)
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 48);
 }
 
 export default function EntryEditor({ doc, entry, onCancel, onSave }: Props) {
@@ -32,11 +24,7 @@ export default function EntryEditor({ doc, entry, onCancel, onSave }: Props) {
   const save = (): void => {
     if (!pl.trim() || !ru.trim()) return;
     const used = new Set(doc.entries.map((e) => e.id));
-    let id = entry?.id;
-    if (!id) {
-      id = slug(pl) || `entry-${used.size + 1}`;
-      while (used.has(id)) id = `${id}-1`;
-    }
+    const id = entry?.id ?? uniqueSlug(pl, used, `entry-${used.size + 1}`);
     onSave({
       id,
       pl: pl.trim(),
@@ -44,6 +32,8 @@ export default function EntryEditor({ doc, entry, onCancel, onSave }: Props) {
       type,
       sets,
       examples: examples.filter((ex) => ex.pl.trim() && ex.ru.trim()),
+      // Preserve the original stamp when editing; stamp only on creation.
+      addedAt: entry?.addedAt ?? nowStamp(),
       ...(note.trim() ? { note: note.trim() } : {}),
     });
   };

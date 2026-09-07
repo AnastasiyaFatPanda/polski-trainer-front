@@ -14,6 +14,9 @@ export interface VocabEntry {
   sets: string[];
   note?: string;
   examples: Example[];
+  /** ISO timestamp, set when the entry is created. Absent on entries that
+   *  predate the field — those fall back to file position. See lib/vocabSort. */
+  addedAt?: string;
 }
 
 export interface SetDef {
@@ -27,7 +30,12 @@ export interface Vocabulary {
   entries: VocabEntry[];
 }
 
-export type TrainingId = 'pl-ru-choice' | 'ru-pl-typed' | 'audio-ru-choice' | 'sentence';
+export type TrainingId =
+  | 'universal'
+  | 'pl-ru-choice'
+  | 'ru-pl-typed'
+  | 'audio-ru-choice'
+  | 'sentence';
 
 export interface EntryProgress {
   correct: number;

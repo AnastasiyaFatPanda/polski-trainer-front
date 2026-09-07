@@ -6,10 +6,12 @@ import { DEFAULT_TTS, type TtsSettings } from './lib/tts';
 import { useLocalStorage } from './lib/useLocalStorage';
 import Home from './components/Home';
 import Training from './components/Training';
+import UniversalTraining from './components/UniversalTraining';
 import VocabularyView from './components/VocabularyView';
+import SetsView from './components/SetsView';
 import SettingsView from './components/SettingsView';
 
-type View = 'home' | 'vocab' | 'settings' | 'training';
+type View = 'home' | 'vocab' | 'sets' | 'settings' | 'training';
 
 const DEFAULT_CONFIG: SessionConfig = {
   training: 'pl-ru-choice',
@@ -24,6 +26,8 @@ export default function App() {
   const [status, setStatus] = useState<ServerStatus | null>(null);
   const [view, setView] = useState<View>('home');
   const [toast, setToast] = useState('');
+  // Lifted so the Zestawy page can open the słownik already filtered.
+  const [vocabSetFilter, setVocabSetFilter] = useState('');
 
   const [progress, setProgress] = useState<ProgressMap>(() => loadProgress());
   const [tts, setTts] = useLocalStorage<TtsSettings>('polski-trainer:tts:v1', DEFAULT_TTS);
@@ -110,7 +114,10 @@ export default function App() {
             <button aria-current={view === 'home'} onClick={() => setView('home')}>
               Trening
             </button>
-            <button aria-current={view === 'vocab'} onClick={() => setView('vocab')}>
+            <button
+              aria-current={view === 'vocab' || view === 'sets'}
+              onClick={() => setView('vocab')}
+            >
               Słownik
             </button>
             <button aria-current={view === 'settings'} onClick={() => setView('settings')}>
@@ -132,7 +139,19 @@ export default function App() {
         />
       )}
 
-      {view === 'training' && (
+      {view === 'training' && config.training === 'universal' && (
+        <UniversalTraining
+          key={`universal-${config.setIds.join('.')}-${config.length}`}
+          doc={doc}
+          config={config}
+          progress={progress}
+          tts={tts}
+          onRecord={handleRecord}
+          onExit={() => setView('home')}
+        />
+      )}
+
+      {view === 'training' && config.training !== 'universal' && (
         <Training
           key={`${config.training}-${config.setIds.join('.')}-${config.length}`}
           doc={doc}
@@ -147,7 +166,31 @@ export default function App() {
       )}
 
       {view === 'vocab' && (
-        <VocabularyView doc={doc} progress={progress} tts={tts} onChange={updateDoc} />
+        <VocabularyView
+          doc={doc}
+          progress={progress}
+          tts={tts}
+          onChange={updateDoc}
+          setFilter={vocabSetFilter}
+          onSetFilterChange={setVocabSetFilter}
+          onOpenSets={() => setView('sets')}
+        />
+      )}
+
+      {view === 'sets' && (
+        <SetsView
+          doc={doc}
+          onChange={(next, note) => {
+            // A deleted set must not stay selected as a filter.
+            if (!next.sets.some((s) => s.id === vocabSetFilter)) setVocabSetFilter('');
+            updateDoc(next, note);
+          }}
+          onOpenVocabulary={(setId) => {
+            setVocabSetFilter(setId);
+            setView('vocab');
+          }}
+          onBack={() => setView('vocab')}
+        />
       )}
 
       {view === 'settings' && (

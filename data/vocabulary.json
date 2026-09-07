@@ -3,19 +3,19 @@
   "sets": [
     {
       "id": "zwierzeta",
-      "name": "Zwierzęta / Животные"
+      "name": "Zwierzęta"
     },
     {
       "id": "zawody",
-      "name": "Zawody / Профессии"
+      "name": "Zawody"
     },
     {
       "id": "kraje",
-      "name": "Kraje / Страны"
+      "name": "Kraje"
     },
     {
       "id": "zwroty",
-      "name": "Zwroty / Фразы"
+      "name": "Zwroty"
     },
     {
       "id": "knopkavideos",
@@ -23,15 +23,15 @@
     },
     {
       "id": "cialo-i-sylwetka",
-      "name": "Ciało i sylwetka / Тело и фигура"
+      "name": "Ciało i sylwetka"
     },
     {
       "id": "zdrowie-i-medycyna",
-      "name": "Zdrowie i medycyna / Здоровье и медицина"
+      "name": "Zdrowie i medycyna"
     },
     {
       "id": "media-i-krytyka",
-      "name": "Media i krytyka / СМИ и критика"
+      "name": "Media i krytyka"
     },
     {
       "id": "moda",
@@ -39,15 +39,15 @@
     },
     {
       "id": "biznes-i-pieniadze",
-      "name": "Biznes i pieniądze / Бизнес и деньги"
+      "name": "Biznes i pieniądze"
     },
     {
       "id": "zwroty-i-konstrukcje",
-      "name": "Zwroty i konstrukcje / Обороты и конструкции"
+      "name": "Zwroty i konstrukcje"
     },
     {
       "id": "wyrazenia-i-idiomy",
-      "name": "Wyrażenia i idiomy / Выражения и идиомы"
+      "name": "Wyrażenia i idiomy"
     }
   ],
   "entries": [
@@ -3975,6 +3975,32 @@
         {
           "pl": "Zmieniłam styl życia i ograniczyłam cukier.",
           "ru": "Я изменила образ жизни и ограничила сахар.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "panstwo",
+      "pl": "państwo",
+      "ru": "«Вы» и государство (речь именно о государстве как политической организации)",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Polska jest państwem demokratycznym.",
+          "ru": "    Польша — демократическое государство.",
+          "source": "file"
+        },
+        {
+          "pl": "Państwo polskie",
+          "ru": "польское государство",
+          "source": "file"
+        },
+        {
+          "pl": "Państwo Kowalscy ",
+          "ru": "господин и госпожа Ковальские",
           "source": "file"
         }
       ]

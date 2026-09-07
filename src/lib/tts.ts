@@ -108,15 +108,23 @@ if (typeof speechSynthesis !== 'undefined') {
 function speakWithSystem(text: string, rate: number): Promise<void> {
   return new Promise((resolve) => {
     if (typeof speechSynthesis === 'undefined') return resolve();
-    speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    const voice = systemPolishVoice();
-    if (voice) utterance.voice = voice;
-    utterance.lang = 'pl-PL';
-    utterance.rate = rate;
-    utterance.onend = () => resolve();
-    utterance.onerror = () => resolve();
-    speechSynthesis.speak(utterance);
+    // speechSynthesis.speak() can throw outright (bad utterance, browser in a
+    // state that refuses speech). This is the last link in the fallback chain,
+    // so it must resolve rather than reject — see the invariant in AGENTS.md.
+    try {
+      speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      const voice = systemPolishVoice();
+      if (voice) utterance.voice = voice;
+      utterance.lang = 'pl-PL';
+      utterance.rate = rate;
+      utterance.onend = () => resolve();
+      utterance.onerror = () => resolve();
+      speechSynthesis.speak(utterance);
+    } catch (error) {
+      console.warn('[tts] system voice unavailable:', error);
+      resolve();
+    }
   });
 }
 

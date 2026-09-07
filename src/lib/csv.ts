@@ -1,5 +1,7 @@
 import type { EntryType, Example, SetDef, VocabEntry, Vocabulary } from '../types';
 import { normalize } from './text';
+import { nowStamp } from './vocabSort';
+import { uniqueSlug } from './slug';
 
 export interface ParsedRow {
   pl: string;
@@ -97,16 +99,6 @@ function matchHeader(cell: string): string | null {
   return null;
 }
 
-function slug(value: string): string {
-  const fold: Record<string, string> = { ą: 'a', ć: 'c', ę: 'e', ł: 'l', ń: 'n', ó: 'o', ś: 's', ź: 'z', ż: 'z' };
-  return value
-    .toLowerCase()
-    .replace(/[ąćęłńóśźż]/g, (ch) => fold[ch] ?? ch)
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 48);
-}
-
 export function parseCsv(text: string, defaultSets: string[] = []): ParsedRow[] {
   const delimiter = detectDelimiter(text);
   const table = splitCsv(text.replace(/^﻿/, ''), delimiter);
@@ -199,8 +191,7 @@ export function applyImport(doc: Vocabulary, rows: ParsedRow[]): Vocabulary {
     if (setIds.has(name)) return name;
     const existing = setIdByName.get(name.toLowerCase());
     if (existing) return existing;
-    let id = slug(name) || `set-${sets.length + 1}`;
-    while (setIds.has(id)) id = `${id}-1`;
+    const id = uniqueSlug(name, setIds, `set-${sets.length + 1}`);
     sets.push({ id, name });
     setIds.add(id);
     setIdByName.set(name.toLowerCase(), id);
@@ -230,8 +221,7 @@ export function applyImport(doc: Vocabulary, rows: ParsedRow[]): Vocabulary {
       continue;
     }
 
-    let id = slug(row.pl) || `entry-${usedIds.size + 1}`;
-    while (usedIds.has(id)) id = `${id}-1`;
+    const id = uniqueSlug(row.pl, usedIds, `entry-${usedIds.size + 1}`);
     usedIds.add(id);
 
     const entry: VocabEntry = {
@@ -241,6 +231,7 @@ export function applyImport(doc: Vocabulary, rows: ParsedRow[]): Vocabulary {
       type: row.type,
       sets: setRefs,
       examples: row.examples,
+      addedAt: nowStamp(),
       ...(row.note ? { note: row.note } : {}),
     };
     entries.push(entry);

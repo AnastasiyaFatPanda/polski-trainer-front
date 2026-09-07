@@ -1,10 +1,23 @@
 /* Sanity checks for the pure logic: CSV import, answer grading, question building.
    Run with: npm run selftest */
 import { readFileSync } from 'node:fs';
-import type { Vocabulary } from '../src/types';
+import type { ProgressMap, Vocabulary } from '../src/types';
+import { blank, mastery, record, weight } from '../src/lib/progress';
 import { applyImport, parseCsv, previewImport, toCsv } from '../src/lib/csv';
 import { acceptedForms, countWords, grade } from '../src/lib/text';
-import { buildOptions, entriesForConfig, pickEntries } from '../src/lib/session';
+import { buildOptions, entriesForConfig, pickEntries, sessionLengthOptions } from '../src/lib/session';
+import {
+  MAX_ATTEMPTS,
+  STAGES,
+  type UniversalState,
+  answerUniversal,
+  attemptsFor,
+  missedCount,
+  perfectRunLength,
+  startUniversal,
+} from '../src/lib/universal';
+import { addedRank, sortEntries } from '../src/lib/vocabSort';
+import { createSet, deleteSet, renameSet, setCounts } from '../src/lib/sets';
 
 let failures = 0;
 function check(name: string, condition: boolean, detail?: unknown): void {
@@ -96,20 +109,28 @@ const everything = entriesForConfig(doc, { training: 'pl-ru-choice', setIds: [],
 check('no set selected means everything', everything.length === doc.entries.length);
 
 let optionsOk = true;
-let distractorsFromSameSet = 0;
+let sameSetOk = 0;
+let sameSetEligible = 0;
+const setSize = new Map<string, number>();
+for (const entry of doc.entries) for (const s of entry.sets) setSize.set(s, (setSize.get(s) ?? 0) + 1);
+
 for (const entry of doc.entries) {
   const options = buildOptions(entry, doc.entries, 'ru');
   if (options.length !== 5) optionsOk = false;
   if (!options.includes(entry.ru)) optionsOk = false;
   if (new Set(options).size !== 5) optionsOk = false;
+
+  // Only meaningful where the entry's sets can actually supply four distractors.
+  if (!entry.sets.some((s) => (setSize.get(s) ?? 0) >= 5)) continue;
+  sameSetEligible += 1;
   const sameSet = options.filter((o) => o !== entry.ru).every((o) => {
     const other = doc.entries.find((e) => e.ru === o);
     return other?.sets.some((s) => entry.sets.includes(s));
   });
-  if (sameSet) distractorsFromSameSet += 1;
+  if (sameSet) sameSetOk += 1;
 }
 check('every question has 5 distinct options incl. the answer', optionsOk);
-check('distractors come from the same set', distractorsFromSameSet === doc.entries.length, `${distractorsFromSameSet}/${doc.entries.length}`);
+check('distractors come from the same set', sameSetOk === sameSetEligible, `${sameSetOk}/${sameSetEligible}`);
 
 const picked = pickEntries(animals, 10, {});
 check('session picks the requested count', picked.length === 10);
@@ -120,6 +141,186 @@ const seen = { [animals[0].id]: { correct: 9, wrong: 0, streak: 9, lastSeen: Dat
 let strongPicked = 0;
 for (let i = 0; i < 200; i += 1) if (pickEntries(animals, 3, seen).some((e) => e.id === animals[0].id)) strongPicked += 1;
 check('mastered words come up less often', strongPicked < 200 * 0.25, `${strongPicked}/200`);
+
+console.log('\nsorting by date added');
+// Words the user's real vocabulary cannot already contain, so this suite stays
+// green against a live data file rather than only against the seed.
+const NEW_PL = `zzztestowe${Date.now()}`;
+const stampRows = parseCsv(`pl,ru\n${NEW_PL},тест\n${NEW_PL}b,тест два`);
+const withStamps = applyImport(doc, stampRows);
+const fresh = withStamps.entries.find((e) => e.pl === NEW_PL)!;
+check('import stamps addedAt on new entries', typeof fresh.addedAt === 'string' && !Number.isNaN(Date.parse(fresh.addedAt)));
+const untouched = doc.entries.find((e) => !e.addedAt);
+check('import does not stamp pre-existing entries', !untouched || withStamps.entries.find((e) => e.id === untouched.id)!.addedAt === undefined);
+
+const ranks = addedRank(withStamps.entries);
+check('stamped entries outrank legacy ones', ranks.get(fresh.id)! > ranks.get(doc.entries[0].id)!);
+check('legacy entries keep file order', ranks.get(doc.entries[5].id)! > ranks.get(doc.entries[2].id)!);
+
+const newestFirst = sortEntries(withStamps.entries, 'newest', ranks);
+check('newest sort puts the import on top', newestFirst[0].pl.startsWith('zzztestowe'), newestFirst[0].pl);
+check('newest sort ends with the oldest entry', newestFirst[newestFirst.length - 1].pl === doc.entries[0].pl);
+
+const oldestFirst = sortEntries(withStamps.entries, 'oldest', ranks);
+check('oldest sort is the exact reverse', oldestFirst[0].pl === newestFirst[newestFirst.length - 1].pl);
+check('sorting never drops or duplicates entries', new Set(newestFirst.map((e) => e.id)).size === withStamps.entries.length);
+
+const alpha = sortEntries(withStamps.entries, 'alpha', ranks);
+check('alpha sort is ascending in Polish collation', alpha.every((e, i) => i === 0 || alpha[i - 1].pl.localeCompare(e.pl, 'pl') <= 0));
+const zabaIndex = alpha.findIndex((e) => e.pl === 'żaba');
+const zajacIndex = alpha.findIndex((e) => e.pl === 'zając');
+check('Polish collation puts ż after z', zabaIndex > zajacIndex, `żaba@${zabaIndex} zając@${zajacIndex}`);
+check('sorting does not mutate the input', withStamps.entries[0].pl === doc.entries[0].pl);
+
+const someSet = doc.sets[0].id;
+const filtered = withStamps.entries.filter((e) => e.sets.includes(someSet));
+const filteredSorted = sortEntries(filtered, 'newest', ranks);
+const maxRank = Math.max(...filtered.map((e) => ranks.get(e.id)!));
+check(
+  'a filtered subset sorts with the full-document rank',
+  filteredSorted.length === filtered.length && ranks.get(filteredSorted[0].id) === maxRank,
+);
+
+console.log('\nset management');
+const firstSet = doc.sets[0];
+const created = createSet(doc, 'Kuchnia');
+check('createSet adds a set', created !== null && created.sets.length === doc.sets.length + 1);
+check('createSet slugs the id', created!.sets[created!.sets.length - 1].id === 'kuchnia');
+check('createSet rejects a duplicate name', createSet(doc, firstSet.name) === null);
+check('createSet rejects a case-variant duplicate', createSet(doc, firstSet.name.toUpperCase()) === null);
+check('createSet rejects blank', createSet(doc, '   ') === null);
+check('createSet does not touch entries', created!.entries === doc.entries);
+
+const renamed = renameSet(doc, firstSet.id, 'Zwierzaki');
+check('renameSet changes the name', renamed!.sets.find((s) => s.id === firstSet.id)!.name === 'Zwierzaki');
+check('renameSet keeps the id stable', renamed!.sets.some((s) => s.id === firstSet.id));
+check('renameSet keeps entry membership intact', renamed!.entries.filter((e) => e.sets.includes(firstSet.id)).length === doc.entries.filter((e) => e.sets.includes(firstSet.id)).length);
+check('renameSet allows renaming to its own name', renameSet(doc, firstSet.id, firstSet.name) !== null);
+check('renameSet rejects another set name', doc.sets.length < 2 || renameSet(doc, firstSet.id, doc.sets[1].name) === null);
+check('renameSet rejects an unknown id', renameSet(doc, 'nie-ma-takiego', 'X') === null);
+
+const memberCount = doc.entries.filter((e) => e.sets.includes(firstSet.id)).length;
+const deleted = deleteSet(doc, firstSet.id);
+check('deleteSet removes the set', !deleted.sets.some((s) => s.id === firstSet.id));
+check('deleteSet keeps every word', deleted.entries.length === doc.entries.length);
+check('deleteSet strips the membership', deleted.entries.every((e) => !e.sets.includes(firstSet.id)));
+check('deleteSet leaves other memberships alone', deleted.entries.filter((e) => e.sets.length > 0).length === doc.entries.filter((e) => e.sets.some((s) => s !== firstSet.id)).length);
+check('deleteSet does not mutate the original', doc.entries.filter((e) => e.sets.includes(firstSet.id)).length === memberCount);
+
+const counts = setCounts(doc);
+check('setCounts matches a manual count', counts.get(firstSet.id) === memberCount);
+check('setCounts covers every set in use', doc.sets.every((s) => counts.has(s.id) || doc.entries.every((e) => !e.sets.includes(s.id))));
+
+console.log('\nuniversal training — stages');
+const lesson = ['a', 'b', 'c', 'd', 'e', 'f'];
+const noShuffle = (ids: string[]) => [...ids];
+const allRight = (s: UniversalState) => answerUniversal(s, true, noShuffle);
+
+let u = startUniversal(lesson);
+check('starts in the intro stage', u.stage === 'intro');
+check('intro keeps the picked order', u.queue.join('') === 'abcdef');
+check('not done at the start', !u.done);
+
+for (let i = 0; i < 6; i += 1) u = allRight(u);
+check('intro hands over to pl-ru', u.stage === 'pl-ru', u.stage);
+check('every word is queued again for the new stage', u.queue.length === 6);
+for (let i = 0; i < 6; i += 1) u = allRight(u);
+check('pl-ru hands over to ru-pl', u.stage === 'ru-pl', u.stage);
+for (let i = 0; i < 6; i += 1) u = allRight(u);
+check('ru-pl hands over to audio-pl', u.stage === 'audio-pl', u.stage);
+for (let i = 0; i < 6; i += 1) u = allRight(u);
+check('lesson finishes after the fourth stage', u.done);
+check('a flawless run takes exactly 4 answers per word', u.answered === perfectRunLength(6), u.answered);
+check('a flawless run records nothing as missed', missedCount(u) === 0);
+check('answering past the end is a no-op', answerUniversal(u, true, noShuffle) === u);
+
+console.log('\nuniversal training — repeats');
+let r = startUniversal(lesson);
+for (let i = 0; i < 6; i += 1) r = allRight(r); // through the intro
+check('intro ignores correctness', missedCount(startUniversal(lesson)) === 0);
+let introWrong = startUniversal(lesson);
+introWrong = answerUniversal(introWrong, false, noShuffle);
+check('a wrong answer in the intro never re-queues', introWrong.queue.length === 5);
+
+const firstWord = r.queue[0];
+const afterMiss = answerUniversal(r, false, noShuffle);
+check('a missed word goes back into the queue', afterMiss.queue.includes(firstWord));
+check('it does not come back immediately', afterMiss.queue[0] !== firstWord, afterMiss.queue.join(''));
+check('it is recorded as missed', (afterMiss.missed['pl-ru'] ?? []).includes(firstWord));
+check('the queue grew back to full length', afterMiss.queue.length === 6);
+
+// Miss the same word every time it appears.
+let stubborn = r;
+let timesAsked = 0;
+for (let guard = 0; guard < 50 && stubborn.stage === 'pl-ru'; guard += 1) {
+  const isTarget = stubborn.queue[0] === firstWord;
+  if (isTarget) timesAsked += 1;
+  stubborn = answerUniversal(stubborn, !isTarget, noShuffle);
+}
+check(`a word is asked at most ${MAX_ATTEMPTS} times per stage`, timesAsked === MAX_ATTEMPTS, timesAsked);
+check('the stage still ends despite the failures', stubborn.stage === 'ru-pl', stubborn.stage);
+check('the failed word carries into the summary', missedCount(stubborn) === 1);
+check('attempts are counted per stage, not globally', attemptsFor(stubborn, firstWord) === 0);
+
+// A word missed once then answered correctly should not be asked a third time.
+let recovering = r;
+recovering = answerUniversal(recovering, false, noShuffle);
+let asked = 1;
+for (let guard = 0; guard < 50 && recovering.stage === 'pl-ru'; guard += 1) {
+  if (recovering.queue[0] === firstWord) asked += 1;
+  recovering = answerUniversal(recovering, true, noShuffle);
+}
+check('a recovered word is asked exactly twice', asked === 2, asked);
+check('recovery still leaves it flagged as missed', missedCount(recovering) === 1);
+
+console.log('\nuniversal training — edge cases');
+const tiny = startUniversal(['only']);
+check('a one-word lesson is valid', !tiny.done && tiny.queue.length === 1);
+let t = tiny;
+for (let i = 0; i < 4; i += 1) t = allRight(t);
+check('a one-word lesson completes all four stages', t.done, t.stage);
+const missTiny = answerUniversal(answerUniversal(tiny, true, noShuffle), false, noShuffle);
+check('a lone word re-queues into an empty queue', missTiny.queue[0] === 'only' && missTiny.stage === 'pl-ru');
+check('an empty lesson is done immediately', startUniversal([]).done);
+check('stage list is the documented order', STAGES.join(',') === 'intro,pl-ru,ru-pl,audio-pl');
+check('universal offers 6 and 10', sessionLengthOptions(500, 'universal').join(',') === '6,10');
+check('other trainings keep their own lengths', sessionLengthOptions(500, 'pl-ru-choice').includes(50));
+
+console.log('\nprogress — the figures on the Postęp card');
+const HOUR = 3_600_000;
+let prog: ProgressMap = {};
+check('an unseen word has no record', prog['kot'] === undefined);
+check('unseen words are asked first', weight(undefined) === 6);
+
+prog = record(prog, 'kot', true);
+check('a correct answer counts', prog['kot'].correct === 1 && prog['kot'].wrong === 0);
+check('a correct answer starts a streak', prog['kot'].streak === 1);
+check('lastSeen is stamped', prog['kot'].lastSeen > 0);
+check('one correct answer is not yet mastery', mastery(prog['kot']) < 1);
+
+prog = record(prog, 'kot', true);
+prog = record(prog, 'kot', true);
+check('three in a row is "opanowane"', mastery(prog['kot']) === 1, mastery(prog['kot']));
+check('mastery is capped at 1', mastery({ correct: 99, wrong: 0, streak: 99, lastSeen: 1 }) === 1);
+
+prog = record(prog, 'kot', false);
+check('a miss resets the streak', prog['kot'].streak === 0);
+check('a miss drops it out of "opanowane"', mastery(prog['kot']) === 0);
+check('lifetime counts are kept', prog['kot'].correct === 3 && prog['kot'].wrong === 1);
+check('still not "do powtórki" — more right than wrong', !(prog['kot'].wrong > prog['kot'].correct));
+
+const struggling = { correct: 1, wrong: 3, streak: 0, lastSeen: Date.now() - 24 * HOUR };
+check('"do powtórki" is wrong > correct', struggling.wrong > struggling.correct);
+check('a struggling word outweighs a mastered one', weight(struggling) > weight({ correct: 9, wrong: 0, streak: 9, lastSeen: Date.now() - 24 * HOUR }));
+check('weight never reaches zero', weight({ correct: 99, wrong: 0, streak: 99, lastSeen: Date.now() - 99 * HOUR }) > 0);
+
+const justAnswered = { correct: 1, wrong: 1, streak: 0, lastSeen: Date.now() - 5 * 60_000 };
+const rested = { ...justAnswered, lastSeen: Date.now() - 24 * HOUR };
+check('a word answered minutes ago is damped', weight(justAnswered) < weight(rested));
+check('the damping is the documented 0.3x', Math.abs(weight(justAnswered) / weight(rested) - 0.3 / 1.5) < 1e-9);
+
+check('progress survives a save/load round-trip', JSON.stringify(prog) === JSON.stringify(JSON.parse(JSON.stringify(prog))));
+check('a blank record is all zeroes', Object.values(blank()).every((v) => v === 0));
 
 console.log(failures === 0 ? '\nAll checks passed.\n' : `\n${failures} check(s) failed.\n`);
 process.exit(failures === 0 ? 0 : 1);

@@ -1,7 +1,7 @@
 # Polski Trainer — CSV import: контракт и конвенции
 
 Справка для будущих сессий: как готовить файлы импорта для приложения
-`~/Documents/polski-trainer` (Vite + React + TS, словарь в `data/vocabulary.json`,
+`./polski-trainer` (Vite + React + TS, словарь в `data/vocabulary.json`,
 импорт через **Słownik → Import CSV**, есть preview перед записью).
 
 ## Формат
@@ -32,21 +32,19 @@ pl,ru,type,sets,example_pl,example_ru
 
 ## Конвенция имён наборов
 
-`Polski / Русский` — например `Zwierzęta / Животные`, `Moda / Мода`.
-Исключение: тематические наборы-источники по имени источника, без перевода
-(например `KnopkaVideos` — лексика из видео блогера Knopka).
+`Polski` — например `Zwierzęta`, `Moda`.
 
 Одно слово может входить в несколько наборов одновременно — источник + тема.
 
 ## Уже импортировано
 
-- Базовые 4 набора (83 записи): Zwierzęta / Животные, Zawody / Профессии,
-  Kraje / Страны, Zwroty / Фразы.
+- Базовые 4 набора (83 записи): Zwierzęta, Zawody,
+  Kraje, Zwroty.
 - `polski-knopka-import.csv` (152 записи, 2026-09-07) — лексика из видео Knopka
   про каноны красоты, похудение и индустрию моды. Все записи в `KnopkaVideos`
   плюс один или несколько тематических наборов:
-  Ciało i sylwetka / Тело и фигура (24), Zdrowie i medycyna / Здоровье и медицина (29),
-  Moda / Мода (25), Biznes i pieniądze / Бизнес и деньги (20),
-  Media i krytyka / СМИ и критика (18), Zwroty i konstrukcje / Обороты и конструкции (26),
-  Wyrażenia i idiomy / Выражения и идиомы (26).
+  Ciało i sylwetka (24), Zdrowie i medycyna (29),
+  Moda (25), Biznes i pieniądze (20),
+  Media i krytyka (18), Zwroty i konstrukcje (26),
+  Wyrażenia i idiomy (26).
   Все примеры предложений написаны с нуля, недостающие русские переводы дописаны.

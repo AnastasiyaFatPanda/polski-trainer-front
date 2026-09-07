@@ -1,4 +1,4 @@
-import type { ProgressMap, SessionConfig, VocabEntry, Vocabulary } from '../types';
+import type { ProgressMap, SessionConfig, TrainingId, VocabEntry, Vocabulary } from '../types';
 import { normalize } from './text';
 import { weight } from './progress';
 
@@ -76,6 +76,10 @@ export function buildOptions(
   return shuffle([answer, ...options]);
 }
 
-export function sessionLengthOptions(poolSize: number): number[] {
+/** The universal lesson is a small fixed batch; a smaller set just uses what it has. */
+export const UNIVERSAL_LENGTHS = [6, 10];
+
+export function sessionLengthOptions(poolSize: number, training: TrainingId): number[] {
+  if (training === 'universal') return [...UNIVERSAL_LENGTHS];
   return [10, 20, 30, 50].filter((n) => n <= Math.max(10, poolSize));
 }

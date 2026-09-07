@@ -30,8 +30,9 @@ matching the reference.
 
 `data/vocabulary.json` is the single source of truth. The Vite dev server serves
 it at `/api/vocabulary` and writes it back on every edit (previous version kept
-as `data/vocabulary.backup.json`). Learning progress and audio cache stay in the
-browser; the vocabulary stays in the file.
+as `data/vocabulary.backup.json`). Learning progress and the audio cache stay in
+the browser; the vocabulary stays in the file. See **Progress** below for what
+that means in practice.
 
 ```jsonc
 {
@@ -43,6 +44,48 @@ browser; the vocabulary stays in the file.
   "examples": [{ "pl": "Kot śpi na moim łóżku.", "ru": "Кот спит на моей кровати." }]
 }
 ```
+
+## Progress
+
+The **Postęp** card on the training screen — *już ćwiczonych / opanowanych / do
+powtórki* — is real stored data, not a per-session count. It lives in your
+browser's `localStorage` under the key `polski-trainer:progress:v1`, as one
+record per word keyed by its entry `id`:
+
+```jsonc
+{
+  "kot":  { "correct": 7, "wrong": 1, "streak": 4, "lastSeen": 1757238910000 },
+  "koza": { "correct": 1, "wrong": 3, "streak": 0, "lastSeen": 1757239001000 }
+}
+```
+
+- `correct` / `wrong` — lifetime answer counts for that word
+- `streak` — consecutive correct answers, reset to 0 by any miss
+- `lastSeen` — epoch ms of the last answer
+
+The three figures on screen are derived from those, across every training mode:
+
+| Figure | Means |
+|---|---|
+| **już ćwiczonych** | `lastSeen` is set — the word has been answered at least once |
+| **opanowanych** | `streak >= 3` — answered right three times running |
+| **do powtórki** | `wrong > correct` — missed more often than not, lifetime |
+
+The same records drive **which words come up**: unseen words start at the
+highest weight, misses raise it, a streak lowers it, and a word answered in the
+last few hours is damped so it doesn't repeat immediately. That's why a fresh
+session doesn't just reshuffle — it leads with what you're weakest on.
+
+**This data is browser-local.** It is not in `data/vocabulary.json`, not in git,
+and not backed up. A different browser or profile, cleared site data, or a
+private window all start from zero. The vocabulary is safe in the file either
+way — only the statistics are lost.
+
+Progress is keyed by entry `id`, and ids never change once assigned, so editing a
+word's spelling or meaning keeps its history. Deleting a word and re-adding it
+does not.
+
+**Ustawienia → Wyzeruj postęp** clears it deliberately.
 
 ## Sets
 
