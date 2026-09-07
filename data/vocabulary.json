@@ -16,6 +16,38 @@
     {
       "id": "zwroty",
       "name": "Zwroty / Фразы"
+    },
+    {
+      "id": "knopkavideos",
+      "name": "KnopkaVideos"
+    },
+    {
+      "id": "cialo-i-sylwetka",
+      "name": "Ciało i sylwetka / Тело и фигура"
+    },
+    {
+      "id": "zdrowie-i-medycyna",
+      "name": "Zdrowie i medycyna / Здоровье и медицина"
+    },
+    {
+      "id": "media-i-krytyka",
+      "name": "Media i krytyka / СМИ и критика"
+    },
+    {
+      "id": "moda",
+      "name": "Moda / Мода"
+    },
+    {
+      "id": "biznes-i-pieniadze",
+      "name": "Biznes i pieniądze / Бизнес и деньги"
+    },
+    {
+      "id": "zwroty-i-konstrukcje",
+      "name": "Zwroty i konstrukcje / Обороты и конструкции"
+    },
+    {
+      "id": "wyrazenia-i-idiomy",
+      "name": "Wyrażenia i idiomy / Выражения и идиомы"
     }
   ],
   "entries": [
@@ -1343,6 +1375,2606 @@
         {
           "pl": "Zaraz wracam, idę po kawę.",
           "ru": "Сейчас вернусь, иду за кофе.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "sylwetka",
+      "pl": "sylwetka",
+      "ru": "фигура, силуэт",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Jej sylwetka zmieniła się przez rok.",
+          "ru": "Её фигура изменилась за год.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "szczuplosc",
+      "pl": "szczupłość",
+      "ru": "стройность",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Szczupłość stała się symbolem luksusu.",
+          "ru": "Стройность стала символом роскоши.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "otylosc",
+      "pl": "otyłość",
+      "ru": "ожирение",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Otyłość jest poważnym problemem zdrowotnym.",
+          "ru": "Ожирение — серьёзная проблема со здоровьем.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "chudnac",
+      "pl": "chudnąć",
+      "ru": "худеть",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Chudnie zbyt szybko i niebezpiecznie.",
+          "ru": "Она худеет слишком быстро и опасно.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "odchudzanie",
+      "pl": "odchudzanie",
+      "ru": "похудение",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "To nie miało nic wspólnego z odchudzaniem.",
+          "ru": "Это не имело ничего общего с похудением.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "pelniejszy",
+      "pl": "pełniejszy",
+      "ru": "более полный (о фигуре)",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Kiedyś pełniejsze kobiety uchodziły za najpiękniejsze.",
+          "ru": "Раньше более полные женщины считались самыми красивыми.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "tkanka-tluszczowa",
+      "pl": "tkanka tłuszczowa",
+      "ru": "жировая ткань",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Organizm spala tkankę tłuszczową powoli.",
+          "ru": "Организм сжигает жировую ткань медленно.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "miesnie",
+      "pl": "mięśnie",
+      "ru": "мышцы",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Bez białka organizm spala też mięśnie.",
+          "ru": "Без белка организм сжигает и мышцы.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "talia",
+      "pl": "talia",
+      "ru": "талия",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Wszyscy chcieli mieć wąską talię.",
+          "ru": "Все хотели иметь тонкую талию.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "talia-osy",
+      "pl": "talia osy",
+      "ru": "осиная талия",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Marzyła o talii osy.",
+          "ru": "Она мечтала об осиной талии.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "biodra",
+      "pl": "biodra",
+      "ru": "бёдра",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Modne były duże biodra i pośladki.",
+          "ru": "Модными были большие бёдра и ягодицы.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "posladki",
+      "pl": "pośladki",
+      "ru": "ягодицы",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Ćwiczy nogi i pośladki dwa razy tygodniowo.",
+          "ru": "Она тренирует ноги и ягодицы дважды в неделю.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "obojczyki",
+      "pl": "obojczyki",
+      "ru": "ключицы",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Na zdjęciach widać wystające obojczyki.",
+          "ru": "На фотографиях видны выступающие ключицы.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "ramiona",
+      "pl": "ramiona",
+      "ru": "плечи",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Ramiona i nogi zrobiły się szczuplejsze.",
+          "ru": "Плечи и ноги стали более худыми.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "rozstepy",
+      "pl": "rozstępy",
+      "ru": "растяжки",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Prawie każda kobieta ma rozstępy.",
+          "ru": "Растяжки есть почти у каждой женщины.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kult-ciala",
+      "pl": "kult ciała",
+      "ru": "культ тела",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Media wciąż promują kult ciała.",
+          "ru": "СМИ по-прежнему продвигают культ тела.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dbac-o-sylwetke",
+      "pl": "dbać o sylwetkę",
+      "ru": "следить за фигурой",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Dba o sylwetkę bez restrykcyjnych diet.",
+          "ru": "Она следит за фигурой без строгих диет.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "cwiczyc",
+      "pl": "ćwiczyć",
+      "ru": "тренироваться, заниматься спортом",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Ćwiczę trzy razy w tygodniu.",
+          "ru": "Я тренируюсь три раза в неделю.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wysportowana-sylwetka",
+      "pl": "wysportowana sylwetka",
+      "ru": "спортивная фигура",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Wtedy modna była wysportowana sylwetka.",
+          "ru": "Тогда модной была спортивная фигура.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "smukla-sylwetka",
+      "pl": "smukła sylwetka",
+      "ru": "стройная фигура",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Wracają bardzo smukłe sylwetki.",
+          "ru": "Возвращаются очень стройные фигуры.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "rubensowskie-ksztalty",
+      "pl": "rubensowskie kształty",
+      "ru": "рубенсовские формы",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Kiedyś podziwiano rubensowskie kształty.",
+          "ru": "Когда-то восхищались рубенсовскими формами.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kanon-piekna",
+      "pl": "kanon piękna",
+      "ru": "канон красоты",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Kanon piękna zmienia się co dekadę.",
+          "ru": "Канон красоты меняется каждое десятилетие.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "uroda",
+      "pl": "uroda",
+      "ru": "внешность, красота",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "cialo-i-sylwetka",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Media pokazują tylko jeden typ urody.",
+          "ru": "СМИ показывают только один тип внешности.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dietetyk",
+      "pl": "dietetyk",
+      "ru": "диетолог",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Poszła do dietetyka po poradę.",
+          "ru": "Она пошла к диетологу за советом.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "badania-kliniczne",
+      "pl": "badania kliniczne",
+      "ru": "клинические исследования",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Lek przeszedł długie badania kliniczne.",
+          "ru": "Лекарство прошло долгие клинические исследования.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dawka",
+      "pl": "dawka",
+      "ru": "доза",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Lekarz zwiększył dawkę leku.",
+          "ru": "Врач увеличил дозу лекарства.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "metabolizm",
+      "pl": "metabolizm",
+      "ru": "метаболизм, обмен веществ",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Z wiekiem metabolizm zwalnia.",
+          "ru": "С возрастом метаболизм замедляется.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "pasozyt",
+      "pl": "pasożyt",
+      "ru": "паразит",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Kiedyś połykano pasożyty dla urody.",
+          "ru": "Раньше глотали паразитов ради красоты.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "uzaleznienie",
+      "pl": "uzależnienie",
+      "ru": "зависимость",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Papierosy szybko powodują uzależnienie.",
+          "ru": "Сигареты быстро вызывают зависимость.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "apetyt",
+      "pl": "apetyt",
+      "ru": "аппетит",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Te leki wyraźnie zmniejszają apetyt.",
+          "ru": "Эти лекарства заметно снижают аппетит.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "skutki-uboczne",
+      "pl": "skutki uboczne",
+      "ru": "побочные эффекты",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Skutki uboczne bywają bardzo nieprzyjemne.",
+          "ru": "Побочные эффекты бывают очень неприятными.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "nudnosci",
+      "pl": "nudności",
+      "ru": "тошнота",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Po tabletce ma silne nudności.",
+          "ru": "После таблетки у неё сильная тошнота.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wymioty",
+      "pl": "wymioty",
+      "ru": "рвота",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Wymioty to częsty skutek uboczny.",
+          "ru": "Рвота — частый побочный эффект.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zaparcia",
+      "pl": "zaparcia",
+      "ru": "запоры",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Zaparcia pojawiają się po kilku dniach.",
+          "ru": "Запоры появляются через несколько дней.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "bialko",
+      "pl": "białko",
+      "ru": "белок",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Trzeba dostarczać organizmowi wystarczająco białka.",
+          "ru": "Нужно давать организму достаточно белка.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "choroba-przewlekla",
+      "pl": "choroba przewlekła",
+      "ru": "хроническое заболевание",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Cukrzyca to choroba przewlekła.",
+          "ru": "Диабет — хроническое заболевание.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "cukrzyca",
+      "pl": "cukrzyca",
+      "ru": "диабет",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Ten lek stworzono na cukrzycę.",
+          "ru": "Это лекарство создали от диабета.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "recepta",
+      "pl": "recepta",
+      "ru": "рецепт (на лекарство)",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Bez recepty nie kupisz tego leku.",
+          "ru": "Без рецепта ты не купишь это лекарство.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "apteka",
+      "pl": "apteka",
+      "ru": "аптека",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Apteka jest otwarta do dwudziestej.",
+          "ru": "Аптека открыта до восьми вечера.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zaburzenia-odzywiania",
+      "pl": "zaburzenia odżywiania",
+      "ru": "расстройство пищевого поведения",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Moda wywołała zaburzenia odżywiania u wielu.",
+          "ru": "Мода вызвала расстройства пищевого поведения у многих.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "arszenik",
+      "pl": "arszenik",
+      "ru": "мышьяк",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Kiedyś sprzedawano tabletki z arszenikiem.",
+          "ru": "Когда-то продавали таблетки с мышьяком.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "slina",
+      "pl": "ślina",
+      "ru": "слюна",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Substancję znaleziono w jego ślinie.",
+          "ru": "Вещество нашли в его слюне.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "tabletka",
+      "pl": "tabletka",
+      "ru": "таблетка",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Bierze jedną tabletkę dziennie.",
+          "ru": "Она принимает одну таблетку в день.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "lek",
+      "pl": "lek",
+      "ru": "лекарство",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Ten lek trudno dostać w aptece.",
+          "ru": "Это лекарство трудно достать в аптеке.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "spalac",
+      "pl": "spalać",
+      "ru": "сжигать",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Organizm zaczyna spalać także mięśnie.",
+          "ru": "Организм начинает сжигать и мышцы.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "rozwalac-organizm",
+      "pl": "rozwalać organizm",
+      "ru": "разрушать организм",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Takie diety rozwalają cały organizm.",
+          "ru": "Такие диеты разрушают весь организм.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dyskomfort",
+      "pl": "dyskomfort",
+      "ru": "дискомфорт",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Czuje silny dyskomfort żołądka.",
+          "ru": "Он чувствует сильный дискомфорт в желудке.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "moda",
+      "pl": "moda",
+      "ru": "мода",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Moda zmienia się z roku na rok.",
+          "ru": "Мода меняется из года в год.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "bielizna",
+      "pl": "bielizna",
+      "ru": "бельё",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Kupiła nową bieliznę na wyprzedaży.",
+          "ru": "Она купила новое бельё на распродаже.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "sklep-bielizniany",
+      "pl": "sklep bieliźniany",
+      "ru": "магазин белья",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "W centrum otwarto nowy sklep bieliźniany.",
+          "ru": "В центре открыли новый магазин белья.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "przymierzalnia",
+      "pl": "przymierzalnia",
+      "ru": "примерочная",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Przymierzalnia jest zajęta od dziesięciu minut.",
+          "ru": "Примерочная занята уже десять минут.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kolekcja",
+      "pl": "kolekcja",
+      "ru": "коллекция",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Nowa kolekcja pojawi się wiosną.",
+          "ru": "Новая коллекция появится весной.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wybieg",
+      "pl": "wybieg",
+      "ru": "подиум",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Modelki wyszły na wybieg.",
+          "ru": "Модели вышли на подиум.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "pokaz-mody",
+      "pl": "pokaz mody",
+      "ru": "показ мод",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Pokaz mody trwał dwadzieścia minut.",
+          "ru": "Показ мод длился двадцать минут.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "modelka",
+      "pl": "modelka",
+      "ru": "модель (женщина)",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Ta modelka ma bardzo szczupłą sylwetkę.",
+          "ru": "У этой модели очень стройная фигура.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "projektant",
+      "pl": "projektant",
+      "ru": "дизайнер, модельер",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Projektant sam wybiera modelki.",
+          "ru": "Дизайнер сам выбирает моделей.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "casting",
+      "pl": "casting",
+      "ru": "кастинг",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Casting trwał od samego rana.",
+          "ru": "Кастинг шёл с самого утра.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kandydatka",
+      "pl": "kandydatka",
+      "ru": "кандидатка",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Każda kandydatka czekała w kolejce.",
+          "ru": "Каждая кандидатка ждала в очереди.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "fryzura",
+      "pl": "fryzura",
+      "ru": "причёска",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Zmieniła fryzurę przed pokazem.",
+          "ru": "Она сменила причёску перед показом.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wlosy-naturalne",
+      "pl": "włosy naturalne",
+      "ru": "натуральные волосы",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Pokazała włosy naturalne bez prostowania.",
+          "ru": "Она показала натуральные волосы без выпрямления.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "estetyka",
+      "pl": "estetyka",
+      "ru": "эстетика",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Wracamy do estetyki końcówki lat dziewięćdziesiątych.",
+          "ru": "Мы возвращаемся к эстетике конца девяностых.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wizerunek",
+      "pl": "wizerunek",
+      "ru": "имидж, образ",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Marka całkowicie zmieniła swój wizerunek.",
+          "ru": "Бренд полностью изменил свой имидж.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kolejka",
+      "pl": "kolejka",
+      "ru": "очередь",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Przed sklepem stała długa kolejka.",
+          "ru": "Перед магазином стояла длинная очередь.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wypelniacz",
+      "pl": "wypełniacz",
+      "ru": "филлер (косметический)",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Wypełniacze stały się bardzo popularne.",
+          "ru": "Филлеры стали очень популярными.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "operacja-plastyczna",
+      "pl": "operacja plastyczna",
+      "ru": "пластическая операция",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "moda",
+        "zdrowie-i-medycyna"
+      ],
+      "examples": [
+        {
+          "pl": "Operacja plastyczna kosztuje tutaj majątek.",
+          "ru": "Пластическая операция стоит здесь целое состояние.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "influencerka",
+      "pl": "influencerka",
+      "ru": "инфлюенсер (женщина)",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Influencerka reklamuje nową kolekcję.",
+          "ru": "Инфлюенсер рекламирует новую коллекцию.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "celebrytka",
+      "pl": "celebrytka",
+      "ru": "знаменитость (женщина)",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Celebrytka pojawiła się na pokazie.",
+          "ru": "Знаменитость появилась на показе.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "celebryta",
+      "pl": "celebryta",
+      "ru": "знаменитость (мужчина)",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Ten celebryta ma miliony obserwujących.",
+          "ru": "У этой знаменитости миллионы подписчиков.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "pozadany",
+      "pl": "pożądany",
+      "ru": "желанный, желаемый",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "To był najbardziej pożądany kontrakt.",
+          "ru": "Это был самый желанный контракт.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "secretka",
+      "pl": "secretka",
+      "ru": "«секретка» (разг. о Victoria's Secret)",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "moda"
+      ],
+      "examples": [
+        {
+          "pl": "Secretka to potoczna nazwa tej marki.",
+          "ru": "«Секретка» — разговорное название этого бренда.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dyrektor-wykonawczy",
+      "pl": "dyrektor wykonawczy",
+      "ru": "исполнительный директор",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Dyrektor wykonawczy odszedł po skandalu.",
+          "ru": "Исполнительный директор ушёл после скандала.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zarzadca",
+      "pl": "zarządca",
+      "ru": "управляющий, руководитель",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Zarządca odpowiada za całą markę.",
+          "ru": "Управляющий отвечает за весь бренд.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "przedstawiciel",
+      "pl": "przedstawiciel",
+      "ru": "представитель",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Przedstawiciel firmy nie odpowiedział.",
+          "ru": "Представитель компании не ответил.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kontrakt",
+      "pl": "kontrakt",
+      "ru": "контракт",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Podpisała kontrakt na dwa lata.",
+          "ru": "Она подписала контракт на два года.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "sprzedaz",
+      "pl": "sprzedaż",
+      "ru": "продажа, продажи",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Sprzedaż spadła o trzydzieści procent.",
+          "ru": "Продажи упали на тридцать процентов.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dochod",
+      "pl": "dochód",
+      "ru": "доход",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Ich dochód rośnie z roku na rok.",
+          "ru": "Их доход растёт из года в год.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "akcje",
+      "pl": "akcje",
+      "ru": "акции (компании)",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Akcje spółki gwałtownie spadły.",
+          "ru": "Акции компании резко упали.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "bankructwo",
+      "pl": "bankructwo",
+      "ru": "банкротство",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Firma stanęła na skraju bankructwa.",
+          "ru": "Компания оказалась на грани банкротства.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zysk",
+      "pl": "zysk",
+      "ru": "прибыль",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Zysk był mniejszy niż rok wcześniej.",
+          "ru": "Прибыль была меньше, чем годом ранее.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "konkurencja",
+      "pl": "konkurencja",
+      "ru": "конкуренция, конкуренты",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Konkurencja okazała się dużo silniejsza.",
+          "ru": "Конкуренты оказались намного сильнее.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "czarny-rynek",
+      "pl": "czarny rynek",
+      "ru": "чёрный рынок",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Te leki trafiły na czarny rynek.",
+          "ru": "Эти лекарства попали на чёрный рынок.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "podrobka",
+      "pl": "podróbka",
+      "ru": "подделка",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "W internecie łatwo kupić podróbkę.",
+          "ru": "В интернете легко купить подделку.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "producent",
+      "pl": "producent",
+      "ru": "производитель",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Producent obiecywał bardzo szybkie efekty.",
+          "ru": "Производитель обещал очень быстрые результаты.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "firma-tytoniowa",
+      "pl": "firma tytoniowa",
+      "ru": "табачная компания",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Firmy tytoniowe reklamowały papierosy zamiast cukierków.",
+          "ru": "Табачные компании рекламировали сигареты вместо конфет.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "rewolucja-przemyslowa",
+      "pl": "rewolucja przemysłowa",
+      "ru": "промышленная революция",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Rewolucja przemysłowa zmieniła styl życia.",
+          "ru": "Промышленная революция изменила образ жизни.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "luksus",
+      "pl": "luksus",
+      "ru": "роскошь",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Szczupłość zaczęto kojarzyć z luksusem.",
+          "ru": "Стройность начали ассоциировать с роскошью.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "status-spoleczny",
+      "pl": "status społeczny",
+      "ru": "социальный статус",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "Ubranie pokazywało wtedy status społeczny.",
+          "ru": "Одежда тогда показывала социальный статус.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dyscyplina",
+      "pl": "dyscyplina",
+      "ru": "дисциплина",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "biznes-i-pieniadze",
+        "cialo-i-sylwetka"
+      ],
+      "examples": [
+        {
+          "pl": "Taki efekt wymaga ogromnej dyscypliny.",
+          "ru": "Такой результат требует огромной дисциплины.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "petycja",
+      "pl": "petycja",
+      "ru": "петиция",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Petycję podpisało tysiąc osób.",
+          "ru": "Петицию подписали тысяча человек.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "skandal",
+      "pl": "skandal",
+      "ru": "скандал",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Skandal wybuchł zaraz po pokazie.",
+          "ru": "Скандал разразился сразу после показа.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "krytyka",
+      "pl": "krytyka",
+      "ru": "критика",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Marka nie wytrzymała fali krytyki.",
+          "ru": "Бренд не выдержал волну критики.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "oskarzenie",
+      "pl": "oskarżenie",
+      "ru": "обвинение",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Oskarżenia pojawiły się we wszystkich mediach.",
+          "ru": "Обвинения появились во всех СМИ.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zarzut",
+      "pl": "zarzut",
+      "ru": "обвинение, претензия",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Firma odrzuciła wszystkie zarzuty.",
+          "ru": "Компания отвергла все обвинения.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "molestowanie",
+      "pl": "molestowanie",
+      "ru": "домогательство",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Kilka modelek zgłosiło molestowanie.",
+          "ru": "Несколько моделей заявили о домогательствах.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "uprzedmiotowienie",
+      "pl": "uprzedmiotowienie",
+      "ru": "объективация",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Krytykowano uprzedmiotowienie kobiet w reklamach.",
+          "ru": "Критиковали объективацию женщин в рекламе.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "ogladalnosc",
+      "pl": "oglądalność",
+      "ru": "просмотры, рейтинг",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Oglądalność pokazu spadła o połowę.",
+          "ru": "Просмотры показа упали вдвое.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "narracja",
+      "pl": "narracja",
+      "ru": "нарратив, повествование",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Marka zmieniła swoją narrację.",
+          "ru": "Бренд изменил свой нарратив.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "pl": "media",
+      "ru": "СМИ, медиа",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Media pokazują tylko jeden ideał.",
+          "ru": "СМИ показывают только один идеал.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "fantazja",
+      "pl": "fantazja",
+      "ru": "фантазия",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "To istniało tylko w fantazji projektantów.",
+          "ru": "Это существовало только в фантазии дизайнеров.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "pochodzenie",
+      "pl": "pochodzenie",
+      "ru": "происхождение",
+      "type": "word",
+      "sets": [
+        "knopkavideos",
+        "media-i-krytyka"
+      ],
+      "examples": [
+        {
+          "pl": "Modelki różnego pochodzenia dostały wreszcie szansę.",
+          "ru": "Модели разного происхождения наконец получили шанс.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "brzmi-znajomo",
+      "pl": "brzmi znajomo?",
+      "ru": "звучит знакомо?",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Brzmi znajomo? Wszyscy to słyszeli.",
+          "ru": "Звучит знакомо? Все это слышали.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "brzmi-absurdalnie",
+      "pl": "brzmi absurdalnie",
+      "ru": "звучит абсурдно",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Brzmi absurdalnie, ale to prawda.",
+          "ru": "Звучит абсурдно, но это правда.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "brzmi-obiecujaco",
+      "pl": "brzmi obiecująco",
+      "ru": "звучит многообещающе",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Brzmiało obiecująco, prawda?",
+          "ru": "Звучало многообещающе, правда?",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "to-pokazuje-ze",
+      "pl": "to pokazuje, że",
+      "ru": "это показывает, что",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "To pokazuje, że moda rządzi wszystkim.",
+          "ru": "Это показывает, что мода правит всем.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "okazalo-sie-ze",
+      "pl": "okazało się, że",
+      "ru": "оказалось, что",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Okazało się, że lek ma skutki uboczne.",
+          "ru": "Оказалось, что у лекарства есть побочные эффекты.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zauwazcie-ze",
+      "pl": "zauważcie, że",
+      "ru": "заметьте, что",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Zauważcie, że wszystko zawsze wraca.",
+          "ru": "Заметьте, что всё всегда возвращается.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "z-roku-na-rok",
+      "pl": "z roku na rok",
+      "ru": "из года в год",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Z roku na rok jest gorzej.",
+          "ru": "Из года в год становится хуже.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "z-dnia-na-dzien",
+      "pl": "z dnia na dzień",
+      "ru": "в одночасье",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Z dnia na dzień stała się sławna.",
+          "ru": "В одночасье она стала знаменитой.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "z-kazdym-rokiem",
+      "pl": "z każdym rokiem",
+      "ru": "с каждым годом",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Z każdym rokiem modelki były chudsze.",
+          "ru": "С каждым годом модели были худее.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "przede-wszystkim",
+      "pl": "przede wszystkim",
+      "ru": "прежде всего",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Przede wszystkim chodzi o zdrowie.",
+          "ru": "Прежде всего речь идёт о здоровье.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "mimo-to",
+      "pl": "mimo to",
+      "ru": "несмотря на это",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Mimo to nikt nie zareagował.",
+          "ru": "Несмотря на это никто не отреагировал.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "mimo-wszystko",
+      "pl": "mimo wszystko",
+      "ru": "несмотря ни на что",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Mimo wszystko warto spróbować.",
+          "ru": "Несмотря ни на что стоит попробовать.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "predzej-czy-pozniej",
+      "pl": "prędzej czy później",
+      "ru": "рано или поздно",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Prędzej czy później moda się zmieni.",
+          "ru": "Рано или поздно мода изменится.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "doslownie-wszedzie",
+      "pl": "dosłownie wszędzie",
+      "ru": "буквально везде",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Te reklamy były dosłownie wszędzie.",
+          "ru": "Эта реклама была буквально везде.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "co-moze-byc-gorsze",
+      "pl": "co może być gorsze?",
+      "ru": "что может быть хуже?",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Co może być gorsze od takiej diety?",
+          "ru": "Что может быть хуже такой диеты?",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wrecz-przeciwnie",
+      "pl": "wręcz przeciwnie",
+      "ru": "совсем наоборот",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Wręcz przeciwnie, kobiety były pełniejsze.",
+          "ru": "Совсем наоборот, женщины были более полными.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "a-skoro-tak",
+      "pl": "a skoro tak",
+      "ru": "а раз так",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "A skoro tak, trzeba działać.",
+          "ru": "А раз так, нужно действовать.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wlasnie-dlatego",
+      "pl": "właśnie dlatego",
+      "ru": "именно поэтому",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Właśnie dlatego zmieniła styl życia.",
+          "ru": "Именно поэтому она изменила образ жизни.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wlasnie-wtedy",
+      "pl": "właśnie wtedy",
+      "ru": "именно тогда",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Właśnie wtedy szczupłość stała się modna.",
+          "ru": "Именно тогда стройность стала модной.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "za-kazdym-razem",
+      "pl": "za każdym razem",
+      "ru": "каждый раз",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Za każdym razem mówi to samo.",
+          "ru": "Каждый раз она говорит то же самое.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "im-chudsza-tym-lepiej",
+      "pl": "im chudsza, tym lepiej",
+      "ru": "чем худее, тем лучше",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Myślano wtedy: im chudsza, tym lepiej.",
+          "ru": "Тогда думали: чем худее, тем лучше.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "jakby-tego-bylo-malo",
+      "pl": "jakby tego było mało",
+      "ru": "как будто этого было мало",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Jakby tego było mało, podniesiono ceny.",
+          "ru": "Как будто этого было мало, подняли цены.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "nie-daj-boze",
+      "pl": "nie daj Boże",
+      "ru": "не дай бог, боже упаси",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Nie daj Boże brać to bez recepty.",
+          "ru": "Не дай бог принимать это без рецепта.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "prawda-jest-taka-ze",
+      "pl": "prawda jest taka, że",
+      "ru": "правда в том, что",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Prawda jest taka, że nic się nie zmieniło.",
+          "ru": "Правда в том, что ничего не изменилось.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "w-przeciwienstwie-do",
+      "pl": "w przeciwieństwie do",
+      "ru": "в отличие от, в противовес",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "W przeciwieństwie do innych marek przeprosili.",
+          "ru": "В отличие от других брендов они извинились.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zupelnie-inaczej",
+      "pl": "zupełnie inaczej",
+      "ru": "совершенно иначе",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "zwroty-i-konstrukcje"
+      ],
+      "examples": [
+        {
+          "pl": "Dzisiaj wygląda to zupełnie inaczej.",
+          "ru": "Сегодня это выглядит совершенно иначе.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wziac-sie-w-garsc",
+      "pl": "wziąć się w garść",
+      "ru": "взять себя в руки",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Musisz w końcu wziąć się w garść.",
+          "ru": "Тебе нужно наконец взять себя в руки.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wziac-sie-do-roboty",
+      "pl": "wziąć się do roboty",
+      "ru": "взяться за дело",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Wzięli się do roboty od poniedziałku.",
+          "ru": "Они взялись за дело с понедельника.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dojsc-do-wniosku",
+      "pl": "dojść do wniosku",
+      "ru": "прийти к выводу",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Doszła do wniosku, że to bez sensu.",
+          "ru": "Она пришла к выводу, что это бессмысленно.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "odejsc-na-drugi-plan",
+      "pl": "odejść na drugi plan",
+      "ru": "отойти на второй план",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Zdrowie odeszło na drugi plan.",
+          "ru": "Здоровье отошло на второй план.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "stanac-na-swoim",
+      "pl": "stanąć na swoim",
+      "ru": "настоять на своём",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Mimo krytyki stanęła na swoim.",
+          "ru": "Несмотря на критику, она настояла на своём.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wkopac-sie-w-cos",
+      "pl": "wkopać się w coś",
+      "ru": "влипнуть во что-то",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Wkopał się w niepotrzebną dramę.",
+          "ru": "Он влип в ненужную драму.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wyjsc-z-czegos",
+      "pl": "wyjść z czegoś",
+      "ru": "выкрутиться из чего-то",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Marka nie potrafiła z tego wyjść.",
+          "ru": "Бренд не смог из этого выкрутиться.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "nie-dac-sobie-w-kasze-dmuchac",
+      "pl": "nie dać sobie w kaszę dmuchać",
+      "ru": "не дать себя в обиду",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Nie dała sobie w kaszę dmuchać.",
+          "ru": "Она не дала себя в обиду.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "ugryzc-sie-w-jezyk",
+      "pl": "ugryźć się w język",
+      "ru": "прикусить язык",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Wolała ugryźć się w język.",
+          "ru": "Она предпочла прикусить язык.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zwrocic-na-siebie-uwage",
+      "pl": "zwrócić na siebie uwagę",
+      "ru": "привлечь к себе внимание",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Chciała zwrócić na siebie uwagę.",
+          "ru": "Она хотела привлечь к себе внимание.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "brac-udzial-w-czyms",
+      "pl": "brać udział w czymś",
+      "ru": "принимать участие в чём-то",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Bierze udział w każdym pokazie.",
+          "ru": "Она принимает участие в каждом показе.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "miec-cos-wspolnego-z-czyms",
+      "pl": "mieć coś wspólnego z czymś",
+      "ru": "иметь отношение к чему-то",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "To ma coś wspólnego z pieniędzmi.",
+          "ru": "Это имеет отношение к деньгам.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "nie-miec-nic-wspolnego-z-czyms",
+      "pl": "nie mieć nic wspólnego z czymś",
+      "ru": "не иметь ничего общего с чем-то",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "To nie ma nic wspólnego ze zdrowiem.",
+          "ru": "Это не имеет ничего общего со здоровьем.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zdawac-sobie-sprawe-z-czegos",
+      "pl": "zdawać sobie sprawę z czegoś",
+      "ru": "отдавать себе отчёт в чём-то",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Zdaje sobie sprawę z ryzyka.",
+          "ru": "Она отдаёт себе отчёт в риске.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dostac-szanse-na-cos",
+      "pl": "dostać szansę na coś",
+      "ru": "получить шанс на что-то",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Dostała szansę na wielki kontrakt.",
+          "ru": "Она получила шанс на большой контракт.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "stracic-szanse-na-cos",
+      "pl": "stracić szansę na coś",
+      "ru": "упустить шанс на что-то",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Stracił szansę na wielki powrót.",
+          "ru": "Он упустил шанс на большое возвращение.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zdobywac-popularnosc",
+      "pl": "zdobywać popularność",
+      "ru": "набирать популярность",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Te leki szybko zdobywają popularność.",
+          "ru": "Эти лекарства быстро набирают популярность.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "tracic-popularnosc",
+      "pl": "tracić popularność",
+      "ru": "терять популярность",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Marka zaczęła gwałtownie tracić popularność.",
+          "ru": "Бренд начал стремительно терять популярность.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wyscig-szczurow",
+      "pl": "wyścig szczurów",
+      "ru": "крысиная гонка (жёсткая конкуренция)",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "To już zwykły wyścig szczurów.",
+          "ru": "Это уже обычная крысиная гонка.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "ostra-rywalizacja",
+      "pl": "ostra rywalizacja",
+      "ru": "жёсткая конкуренция",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy",
+        "biznes-i-pieniadze"
+      ],
+      "examples": [
+        {
+          "pl": "W tej branży trwa ostra rywalizacja.",
+          "ru": "В этой отрасли идёт жёсткая конкуренция.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "tesknic-za-kims",
+      "pl": "tęsknić za kimś",
+      "ru": "скучать по кому-то",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Tęsknię za rodziną w Polsce.",
+          "ru": "Я скучаю по семье в Польше.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "mimo-wielu-prosb",
+      "pl": "mimo wielu próśb",
+      "ru": "несмотря на многочисленные просьбы",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Mimo wielu próśb nic nie zmienili.",
+          "ru": "Несмотря на многочисленные просьбы, ничего не изменили.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "w-wyobrazni-kogos",
+      "pl": "w wyobraźni kogoś",
+      "ru": "в воображении кого-то",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Taka kobieta istniała tylko w wyobraźni projektantów.",
+          "ru": "Такая женщина существовала только в воображении дизайнеров.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "ryzykowac-zdrowiem",
+      "pl": "ryzykować zdrowiem",
+      "ru": "рисковать здоровьем",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Ryzykują zdrowiem dla kilku kilogramów.",
+          "ru": "Они рискуют здоровьем ради нескольких килограммов.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "przestac-byc-modnym",
+      "pl": "przestać być modnym",
+      "ru": "перестать быть модным",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Nagle to przestało być modne.",
+          "ru": "Вдруг это перестало быть модным.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zmienic-styl-zycia",
+      "pl": "zmienić styl życia",
+      "ru": "изменить образ жизни",
+      "type": "phrase",
+      "sets": [
+        "knopkavideos",
+        "wyrazenia-i-idiomy"
+      ],
+      "examples": [
+        {
+          "pl": "Zmieniłam styl życia i ograniczyłam cukier.",
+          "ru": "Я изменила образ жизни и ограничила сахар.",
           "source": "file"
         }
       ]

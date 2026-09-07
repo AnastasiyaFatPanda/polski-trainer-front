@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { ProgressMap, VocabEntry, Vocabulary } from '../types';
 import type { TtsSettings } from '../lib/tts';
 import { toCsv } from '../lib/csv';
@@ -7,6 +7,13 @@ import { normalize } from '../lib/text';
 import EntryEditor from './EntryEditor';
 import ImportDialog from './ImportDialog';
 import SpeakButton from './SpeakButton';
+
+/**
+ * Rows painted at once. Filtering 3000 entries costs ~1 ms; painting 3000 table
+ * rows costs over a second and makes every keystroke in the search box lag, so
+ * the list is capped and extended on demand.
+ */
+const PAGE_SIZE = 200;
 
 interface Props {
   doc: Vocabulary;
@@ -31,6 +38,9 @@ export default function VocabularyView({ doc, progress, tts, onChange }: Props) 
   const [editing, setEditing] = useState<VocabEntry | null | 'new'>(null);
   const [importing, setImporting] = useState(false);
   const [newSetName, setNewSetName] = useState('');
+  const [limit, setLimit] = useState(PAGE_SIZE);
+
+  useEffect(() => setLimit(PAGE_SIZE), [query, setFilter]);
 
   const setName = useMemo(() => new Map(doc.sets.map((s) => [s.id, s.name])), [doc.sets]);
 
@@ -42,6 +52,8 @@ export default function VocabularyView({ doc, progress, tts, onChange }: Props) 
       return normalize(entry.pl).includes(q) || normalize(entry.ru).includes(q);
     });
   }, [doc.entries, query, setFilter]);
+
+  const shown = useMemo(() => visible.slice(0, limit), [visible, limit]);
 
   const countsBySet = useMemo(() => {
     const counts = new Map<string, number>();
@@ -197,7 +209,7 @@ export default function VocabularyView({ doc, progress, tts, onChange }: Props) 
               </tr>
             </thead>
             <tbody>
-              {visible.map((entry) => (
+              {shown.map((entry) => (
                 <tr key={entry.id}>
                   <td className="pl">
                     {entry.pl} <SpeakButton text={entry.pl} settings={tts} />
@@ -227,7 +239,7 @@ export default function VocabularyView({ doc, progress, tts, onChange }: Props) 
                   </td>
                 </tr>
               ))}
-              {visible.length === 0 && (
+              {shown.length === 0 && (
                 <tr>
                   <td colSpan={6} className="muted center" style={{ padding: 28 }}>
                     Nic nie znaleziono.
@@ -237,10 +249,19 @@ export default function VocabularyView({ doc, progress, tts, onChange }: Props) 
             </tbody>
           </table>
         </div>
-        <p className="muted" style={{ fontSize: 12.5, marginTop: 10, marginBottom: 0 }}>
-          {visible.length} z {doc.entries.length} pozycji · zapisywane do{' '}
-          <code>data/vocabulary.json</code>
-        </p>
+        <div className="row spread" style={{ marginTop: 10 }}>
+          <span className="muted" style={{ fontSize: 12.5 }}>
+            {shown.length < visible.length
+              ? `${shown.length} z ${visible.length} pasujących`
+              : `${visible.length} z ${doc.entries.length} pozycji`}{' '}
+            · zapisywane do <code>data/vocabulary.json</code>
+          </span>
+          {shown.length < visible.length && (
+            <button className="btn small" onClick={() => setLimit((n) => n + PAGE_SIZE * 5)}>
+              Pokaż więcej
+            </button>
+          )}
+        </div>
       </div>
 
       {editing && (
