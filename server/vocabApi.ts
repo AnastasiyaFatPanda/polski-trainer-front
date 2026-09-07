@@ -6,6 +6,8 @@ import path from 'node:path';
 const DATA_DIR = path.resolve(process.cwd(), 'data');
 const VOCAB_FILE = path.join(DATA_DIR, 'vocabulary.json');
 const BACKUP_FILE = path.join(DATA_DIR, 'vocabulary.backup.json');
+const PROGRESS_FILE = path.join(DATA_DIR, 'progress.json');
+const PROGRESS_BACKUP = path.join(DATA_DIR, 'progress.backup.json');
 
 const DEFAULT_MODEL = 'claude-sonnet-5';
 
@@ -55,6 +57,33 @@ async function writeVocabulary(doc: Vocabulary): Promise<void> {
   const tmp = `${VOCAB_FILE}.tmp`;
   await fs.writeFile(tmp, `${JSON.stringify(doc, null, 2)}\n`, 'utf8');
   await fs.rename(tmp, VOCAB_FILE);
+}
+
+/** Learning progress, keyed by entry id. Absent file = nothing learned yet. */
+type ProgressFile = Record<
+  string,
+  { correct: number; wrong: number; streak: number; lastSeen: number }
+>;
+
+async function readProgress(): Promise<ProgressFile> {
+  try {
+    return JSON.parse(await fs.readFile(PROGRESS_FILE, 'utf8')) as ProgressFile;
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') return {};
+    throw error;
+  }
+}
+
+async function writeProgress(map: ProgressFile): Promise<void> {
+  await fs.mkdir(DATA_DIR, { recursive: true });
+  try {
+    await fs.copyFile(PROGRESS_FILE, PROGRESS_BACKUP);
+  } catch {
+    /* first write */
+  }
+  const tmp = `${PROGRESS_FILE}.tmp`;
+  await fs.writeFile(tmp, `${JSON.stringify(map, null, 2)}\n`, 'utf8');
+  await fs.rename(tmp, PROGRESS_FILE);
 }
 
 function send(res: ServerResponse, status: number, body: unknown): void {
@@ -171,6 +200,19 @@ const middleware: Connect.NextHandleFunction = (req, res, next) => {
         return send(res, 200, { ok: true, entries: body.entries.length });
       }
 
+      if (url === '/api/progress' && req.method === 'GET') {
+        return send(res, 200, await readProgress());
+      }
+
+      if (url === '/api/progress' && req.method === 'PUT') {
+        const body = (await readBody(req)) as ProgressFile | undefined;
+        if (!body || typeof body !== 'object' || Array.isArray(body)) {
+          return send(res, 400, { error: 'Expected an object keyed by entry id' });
+        }
+        await queueWrite(() => writeProgress(body));
+        return send(res, 200, { ok: true, words: Object.keys(body).length });
+      }
+
       if (url === '/api/sentence' && req.method === 'POST') {
         const body = (await readBody(req)) as { entryId?: string } | undefined;
         if (!body?.entryId) return send(res, 400, { error: 'Expected { entryId }' });
@@ -198,6 +240,7 @@ const middleware: Connect.NextHandleFunction = (req, res, next) => {
           sentenceApi: Boolean(process.env.ANTHROPIC_API_KEY),
           model: process.env.ANTHROPIC_MODEL || DEFAULT_MODEL,
           file: VOCAB_FILE,
+          progressFile: PROGRESS_FILE,
         });
       }
 

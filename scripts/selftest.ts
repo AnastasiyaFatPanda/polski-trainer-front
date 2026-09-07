@@ -2,7 +2,7 @@
    Run with: npm run selftest */
 import { readFileSync } from 'node:fs';
 import type { ProgressMap, Vocabulary } from '../src/types';
-import { blank, mastery, record, weight } from '../src/lib/progress';
+import { blank, mastery, matchesProgress, mergeProgress, record, sameProgress, weight } from '../src/lib/progress';
 import { applyImport, parseCsv, previewImport, toCsv } from '../src/lib/csv';
 import { acceptedForms, countWords, grade } from '../src/lib/text';
 import { buildOptions, entriesForConfig, pickEntries, sessionLengthOptions } from '../src/lib/session';
@@ -321,6 +321,82 @@ check('the damping is the documented 0.3x', Math.abs(weight(justAnswered) / weig
 
 check('progress survives a save/load round-trip', JSON.stringify(prog) === JSON.stringify(JSON.parse(JSON.stringify(prog))));
 check('a blank record is all zeroes', Object.values(blank()).every((v) => v === 0));
+
+console.log('\nprogress buckets — tiles, słownik filter and training pool agree');
+const newWord = undefined;
+const practised = { correct: 1, wrong: 1, streak: 1, lastSeen: Date.now() };
+const mastered = { correct: 5, wrong: 0, streak: 3, lastSeen: Date.now() };
+const weak = { correct: 1, wrong: 4, streak: 0, lastSeen: Date.now() };
+
+check('"all" matches everything', ['new', 'practiced', 'mastered', 'review'].length > 0 && matchesProgress('all', newWord) && matchesProgress('all', weak));
+check('"new" is an unanswered word', matchesProgress('new', newWord) && !matchesProgress('new', practised));
+check('"practiced" is any answered word', matchesProgress('practiced', practised) && !matchesProgress('practiced', newWord));
+check('"mastered" needs a streak of 3', matchesProgress('mastered', mastered) && !matchesProgress('mastered', practised));
+check('"review" is wrong > correct', matchesProgress('review', weak) && !matchesProgress('review', mastered));
+check('a mastered word is also "practiced"', matchesProgress('practiced', mastered));
+check('"new" and "practiced" partition the vocabulary', doc.entries.every((e) => matchesProgress('new', undefined) !== matchesProgress('practiced', undefined)));
+
+const bucketProgress: ProgressMap = {};
+for (const [i, e] of doc.entries.entries()) {
+  if (i % 3 === 0) bucketProgress[e.id] = { ...mastered };
+  else if (i % 3 === 1) bucketProgress[e.id] = { ...weak };
+}
+const base = { training: 'universal' as const, setIds: [], types: ['word', 'phrase'] as const, length: 10 };
+const masteredPool = entriesForConfig(doc, { ...base, types: ['word', 'phrase'], progressFilter: 'mastered' }, bucketProgress);
+const reviewPool = entriesForConfig(doc, { ...base, types: ['word', 'phrase'], progressFilter: 'review' }, bucketProgress);
+const newPool = entriesForConfig(doc, { ...base, types: ['word', 'phrase'], progressFilter: 'new' }, bucketProgress);
+const allPool = entriesForConfig(doc, { ...base, types: ['word', 'phrase'], progressFilter: 'all' }, bucketProgress);
+
+check('the training pool honours "mastered"', masteredPool.length === doc.entries.filter((_, i) => i % 3 === 0).length, masteredPool.length);
+check('the training pool honours "review"', reviewPool.length === doc.entries.filter((_, i) => i % 3 === 1).length, reviewPool.length);
+check('the training pool honours "new"', newPool.length === doc.entries.filter((_, i) => i % 3 === 2).length, newPool.length);
+check('the three buckets add up to the whole vocabulary', masteredPool.length + reviewPool.length + newPool.length === doc.entries.length);
+check('"all" is still everything', allPool.length === doc.entries.length);
+check('omitting progressFilter behaves as "all"', entriesForConfig(doc, base, bucketProgress).length === doc.entries.length);
+check('omitting the progress map behaves as "all"', entriesForConfig(doc, { ...base, progressFilter: 'all' }).length === doc.entries.length);
+check('a bucket composes with a set filter', entriesForConfig(doc, { ...base, setIds: ['zwierzeta'], progressFilter: 'mastered' }, bucketProgress).every((e) => e.sets.includes('zwierzeta') && matchesProgress('mastered', bucketProgress[e.id])));
+check('a lesson can be built from the review bucket', pickEntries(reviewPool, 6, bucketProgress).length === Math.min(6, reviewPool.length));
+
+console.log('\nprogress merge — file vs browser');
+const older = { correct: 1, wrong: 0, streak: 1, lastSeen: 1_000 };
+const newer = { correct: 4, wrong: 1, streak: 2, lastSeen: 2_000 };
+
+check('empty merges are empty', Object.keys(mergeProgress({}, {})).length === 0);
+check('words only in the file survive', mergeProgress({ a: older }, {}).a === older);
+check('words only in the browser survive', mergeProgress({}, { a: older }).a === older);
+check('the newer record wins', mergeProgress({ a: older }, { a: newer }).a === newer);
+check('the newer record wins in either direction', mergeProgress({ a: newer }, { a: older }).a === newer);
+check('counts are never summed', mergeProgress({ a: older }, { a: newer }).a.correct === 4);
+check('a tie keeps the base record', mergeProgress({ a: older }, { a: { ...older } }).a === older);
+check('merging is per word, not whole-map', Object.keys(mergeProgress({ a: older, b: older }, { b: newer, c: newer })).sort().join() === 'a,b,c');
+check('a per-word mix picks each winner', (() => {
+  const m = mergeProgress({ a: newer, b: older }, { a: older, b: newer });
+  return m.a === newer && m.b === newer;
+})());
+check('merging does not mutate its inputs', (() => {
+  const base = { a: older };
+  mergeProgress(base, { a: newer });
+  return base.a === older;
+})());
+check('a never-answered record loses to a real one', mergeProgress({ a: older }, { a: blank() }).a === older);
+check('a full round-trip through the file is lossless', (() => {
+  const map = { kot: newer, koza: older };
+  return sameProgress(mergeProgress(JSON.parse(JSON.stringify(map)), {}), map);
+})());
+
+check('sameProgress spots an equal map', sameProgress({ a: older }, { a: { ...older } }));
+check('sameProgress spots a changed count', !sameProgress({ a: older }, { a: { ...older, correct: 2 } }));
+check('sameProgress spots a changed timestamp', !sameProgress({ a: older }, { a: { ...older, lastSeen: 5 } }));
+check('sameProgress spots an extra word', !sameProgress({ a: older }, { a: older, b: older }));
+check('sameProgress spots a missing word', !sameProgress({ a: older, b: older }, { a: older }));
+
+// The scenario the whole feature exists for.
+const onDisk = { kot: newer, koza: newer };
+const clearedBrowser: ProgressMap = {};
+check('a cleared browser recovers everything from the file', sameProgress(mergeProgress(onDisk, clearedBrowser), onDisk));
+const otherBrowser = { pies: { correct: 2, wrong: 0, streak: 2, lastSeen: 3_000 } };
+const afterSwitch = mergeProgress(onDisk, otherBrowser);
+check('a second browser adds to the file rather than replacing it', Object.keys(afterSwitch).sort().join() === 'kot,koza,pies');
 
 console.log(failures === 0 ? '\nAll checks passed.\n' : `\n${failures} check(s) failed.\n`);
 process.exit(failures === 0 ? 0 : 1);

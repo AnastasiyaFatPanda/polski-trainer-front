@@ -1,0 +1,362 @@
+{
+  "owca": {
+    "correct": 0,
+    "wrong": 1,
+    "streak": 0,
+    "lastSeen": 1788765727565
+  },
+  "mysz": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788765733281
+  },
+  "ptak": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788765737669
+  },
+  "lis": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788765741333
+  },
+  "zajac": {
+    "correct": 2,
+    "wrong": 0,
+    "streak": 2,
+    "lastSeen": 1788767653932
+  },
+  "krowa": {
+    "correct": 0,
+    "wrong": 1,
+    "streak": 0,
+    "lastSeen": 1788765754244
+  },
+  "kon": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788765757747
+  },
+  "swinia": {
+    "correct": 0,
+    "wrong": 1,
+    "streak": 0,
+    "lastSeen": 1788765762126
+  },
+  "motyl": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788765770793
+  },
+  "wilk": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788765773945
+  },
+  "dyrektor-wykonawczy": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767636101
+  },
+  "kolejka": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767640465
+  },
+  "fantazja": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767643532
+  },
+  "wlasnie-wtedy": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767648631
+  },
+  "recepta": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767651765
+  },
+  "biodra": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767656615
+  },
+  "pokaz-mody": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767659399
+  },
+  "influencerka": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767662498
+  },
+  "producent": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767673349
+  },
+  "mimo-wielu-prosb": {
+    "correct": 0,
+    "wrong": 1,
+    "streak": 0,
+    "lastSeen": 1788767711311
+  },
+  "cukrzyca": {
+    "correct": 0,
+    "wrong": 1,
+    "streak": 0,
+    "lastSeen": 1788767735438
+  },
+  "wypelniacz": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767755330
+  },
+  "metabolizm": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767758830
+  },
+  "dyscyplina": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767761264
+  },
+  "wziac-sie-do-roboty": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767766982
+  },
+  "sylwetka": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767770782
+  },
+  "kandydatka": {
+    "correct": 2,
+    "wrong": 0,
+    "streak": 2,
+    "lastSeen": 1788807574098
+  },
+  "zdawac-sobie-sprawe-z-czegos": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767783079
+  },
+  "dojsc-do-wniosku": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767788882
+  },
+  "odejsc-na-drugi-plan": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767795085
+  },
+  "choroba-przewlekla": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788767800420
+  },
+  "prawda-jest-taka-ze": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788806918270
+  },
+  "bialko": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788806924690
+  },
+  "moda": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788806928919
+  },
+  "talia": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788806931688
+  },
+  "wyscig-szczurow": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788806936470
+  },
+  "odchudzanie": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788806941386
+  },
+  "rozwalac-organizm": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788806948036
+  },
+  "rozstepy": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788806954439
+  },
+  "arszenik": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788806959302
+  },
+  "jakby-tego-bylo-malo": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788806965504
+  },
+  "tesknic-za-kims": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788807493632
+  },
+  "doslownie-wszedzie": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788807500949
+  },
+  "brzmi-znajomo": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788807505653
+  },
+  "ostra-rywalizacja": {
+    "correct": 0,
+    "wrong": 1,
+    "streak": 0,
+    "lastSeen": 1788807534647
+  },
+  "nie-daj-boze": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788807540532
+  },
+  "dbac-o-sylwetke": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788807547430
+  },
+  "przedstawiciel": {
+    "correct": 1,
+    "wrong": 0,
+    "streak": 1,
+    "lastSeen": 1788807552618
+  },
+  "celebryta": {
+    "correct": 0,
+    "wrong": 1,
+    "streak": 0,
+    "lastSeen": 1788807562181
+  },
+  "obojczyki": {
+    "correct": 0,
+    "wrong": 1,
+    "streak": 0,
+    "lastSeen": 1788807569931
+  },
+  "firma-tytoniowa": {
+    "correct": 3,
+    "wrong": 2,
+    "streak": 2,
+    "lastSeen": 1788808200185
+  },
+  "kult-ciala": {
+    "correct": 3,
+    "wrong": 0,
+    "streak": 3,
+    "lastSeen": 1788808184231
+  },
+  "bankructwo": {
+    "correct": 3,
+    "wrong": 0,
+    "streak": 3,
+    "lastSeen": 1788808211447
+  },
+  "skutki-uboczne": {
+    "correct": 2,
+    "wrong": 5,
+    "streak": 1,
+    "lastSeen": 1788808249171
+  },
+  "slina": {
+    "correct": 3,
+    "wrong": 0,
+    "streak": 3,
+    "lastSeen": 1788808178902
+  },
+  "sprzedaz": {
+    "correct": 3,
+    "wrong": 1,
+    "streak": 2,
+    "lastSeen": 1788808189329
+  },
+  "ugryzc-sie-w-jezyk": {
+    "correct": 2,
+    "wrong": 3,
+    "streak": 1,
+    "lastSeen": 1788808222567
+  },
+  "operacja-plastyczna": {
+    "correct": 3,
+    "wrong": 1,
+    "streak": 2,
+    "lastSeen": 1788808233347
+  },
+  "dietetyk": {
+    "correct": 3,
+    "wrong": 1,
+    "streak": 2,
+    "lastSeen": 1788808175319
+  },
+  "bielizna": {
+    "correct": 3,
+    "wrong": 1,
+    "streak": 2,
+    "lastSeen": 1788808204912
+  }
+}

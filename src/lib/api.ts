@@ -1,4 +1,4 @@
-import type { Example, Vocabulary } from '../types';
+import type { Example, ProgressMap, Vocabulary } from '../types';
 
 async function json<T>(response: Response): Promise<T> {
   if (!response.ok) {
@@ -26,6 +26,23 @@ export function saveVocabulary(doc: Vocabulary): Promise<{ ok: boolean; entries:
   }).then((r) => json(r));
 }
 
+export function loadRemoteProgress(): Promise<ProgressMap> {
+  return fetch('/api/progress').then((r) => json<ProgressMap>(r));
+}
+
+/**
+ * `keepalive` lets the final flush survive the page being closed — the browser
+ * finishes the request after the tab is gone.
+ */
+export function saveRemoteProgress(map: ProgressMap, keepalive = false): Promise<unknown> {
+  return fetch('/api/progress', {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(map),
+    keepalive,
+  }).then((r) => json(r));
+}
+
 /** Asks the dev server to generate one example sentence and persist it to disk. */
 export function generateSentence(entryId: string): Promise<Example> {
   return fetch('/api/sentence', {
@@ -39,6 +56,7 @@ export interface ServerStatus {
   sentenceApi: boolean;
   model: string;
   file: string;
+  progressFile: string;
 }
 
 export function getStatus(): Promise<ServerStatus> {

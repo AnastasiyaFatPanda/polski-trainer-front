@@ -11,15 +11,15 @@ import files. **This file covers changing the code.** Don't duplicate those here
 
 ```bash
 npm run dev         # localhost:5180
-npm run selftest    # 125 assertions over the pure logic — no browser, ~1s
+npm run selftest    # 160 assertions over the pure logic — no browser, ~1s
 npm run typecheck   # tsc strict
 npm run build
 ```
 
 **Run `npm run selftest` after touching anything in `src/lib/`.** It covers CSV
 parsing and merge, answer grading, distractor selection, question weighting, the
-`addedAt` sort, set create/rename/delete, the progress thresholds and the
-universal training's stage machine, and it validates `data/vocabulary.json`
+`addedAt` sort, set create/rename/delete, the progress thresholds and merge rule,
+and the universal training's stage machine, and it validates `data/vocabulary.json`
 itself (unique ids, resolvable set refs, the 8-słówek limit). It is fast and it
 catches real regressions — use it.
 
@@ -34,18 +34,37 @@ vocabulary, accumulated over time, with hand-authored and reviewed sentences.
 - Never regenerate, reformat or reorder it wholesale.
 - Never write it directly from a script. Writes go through `PUT /api/vocabulary`,
   which backs up the previous version and writes atomically via a temp file.
-- Learning progress lives in `localStorage`, keyed by entry `id`. **Changing an
+- Learning progress is keyed by entry `id` (see the next section). **Changing an
   entry's `id` silently orphans its progress.** Ids are slugs of `pl`, assigned
   once at creation and never recomputed on edit.
 
-## Browser-stored state
+## Where progress lives
 
-Four keys, none of which are in the repo or in `data/vocabulary.json`. All of it
-is per-browser and disposable — treat the file as the only durable store.
+`data/progress.json` is the source of truth; localStorage is a per-browser cache
+of the same map. `src/lib/progressStore.ts` owns the reconciliation:
+
+- **On load**, `loadMergedProgress()` fetches the file and merges it with the
+  local copy — per word the record with the newer `lastSeen` wins **wholesale**.
+  Never merge field-by-field: summing `correct` across two copies double-counts.
+  A cleared cache or a new browser therefore recovers everything from the file,
+  and a session done while the server was down is pushed up on the next load.
+- **On every answer**, localStorage is written synchronously and the file write
+  is debounced 2 s. A 40-answer lesson is a few writes, not forty.
+- **Flushed** when a session ends, and on `visibilitychange`/`pagehide` with
+  `keepalive: true` so a closed tab still lands its last answers.
+- If the server is unreachable the app degrades to localStorage-only rather than
+  failing — every path in that module swallows its error deliberately.
+
+Progress is deliberately **not** inside `data/vocabulary.json`: it would rewrite
+a 1.2 MB file per answer and bury real vocabulary changes in git diffs.
+
+## Other browser-stored state
+
+Per-browser and disposable — the files above are the durable store.
 
 | Where | Key | Holds |
 |---|---|---|
-| `localStorage` | `polski-trainer:progress:v1` | learning progress, `{ [entryId]: { correct, wrong, streak, lastSeen } }` |
+| `localStorage` | `polski-trainer:progress:v1` | cache of `data/progress.json` |
 | `localStorage` | `polski-trainer:tts:v1` | engine, Piper voice, speech rate |
 | `localStorage` | `polski-trainer:config:v1` | last training, sets, types, length |
 | `IndexedDB` | `polski-trainer-audio` | synthesised clips, keyed `voiceId:text` |
@@ -54,11 +73,12 @@ Progress is written by `handleRecord` in `App` on every answer, from every
 training mode including each stage of the universal lesson. `src/lib/progress.ts`
 owns the shape and the derived figures:
 
-- `mastery(p)` = `streak / 3`, clamped 0–1. The Postęp card's **opanowanych** is
-  `mastery >= 1`, i.e. three correct in a row; the słownik's per-row bar is the
-  same value.
-- **do powtórki** is `wrong > correct` (lifetime), computed in `Home`.
-- **już ćwiczonych** is `lastSeen` being set.
+- `matchesProgress(filter, p)` is the **single** definition of the buckets:
+  `new` (no `lastSeen`), `practiced` (`lastSeen` set), `mastered`
+  (`mastery >= 1`, i.e. `streak >= 3`), `review` (`wrong > correct`). The Postęp
+  tiles, the słownik's Postęp dropdown and the training pool all call it — never
+  re-derive a bucket inline, or the tile count and the lesson stop agreeing.
+- `mastery(p)` = `streak / 3`, clamped 0–1; also the słownik's per-row bar.
 - `weight(p)` decides how often a word is asked: unseen scores 6, each miss adds
   2, each streak step subtracts 1.5, and anything answered within 3 hours is
   damped to 0.3× so it does not repeat immediately.
@@ -116,6 +136,12 @@ Things that look like they could be simplified, and cannot:
 
 9. **UI copy is Polish.** Code, comments and docs are English.
 
+11. **Progress merges, it never overwrites.** `mergeProgress()` takes the newer
+    `lastSeen` record per word, whole. Replacing the file with whatever this
+    browser happens to hold would silently discard a session done elsewhere;
+    summing the counters would double-count. Both are easy mistakes to make in a
+    "simplification".
+
 10. **The universal lesson's rules live in `src/lib/universal.ts`, not in the
     component.** `answerUniversal()` is a pure reducer: a missed word returns two
     places later in the same stage, is asked at most `MAX_ATTEMPTS` (3) times in
@@ -128,7 +154,8 @@ Things that look like they could be simplified, and cannot:
 
 ```
 data/vocabulary.json      the vocabulary — source of truth
-server/vocabApi.ts        GET/PUT /api/vocabulary, POST /api/sentence, GET /api/status
+data/progress.json        learning progress — source of truth, merged on load
+server/vocabApi.ts        GET/PUT /api/vocabulary + /api/progress, POST /api/sentence
 src/lib/tts.ts            Piper + system voice, IndexedDB clip cache, fallback chain
 src/lib/csv.ts            parse / preview / merge / export
 src/lib/session.ts        weighted picking, distractor selection
@@ -137,7 +164,8 @@ src/lib/sets.ts           set create / rename / delete / counts — pure, tested
 src/lib/universal.ts      the universal lesson's stage machine — pure reducer
 src/lib/slug.ts           the single slugifier for entry and set ids
 src/lib/text.ts           Polish-aware grading (normalize, fold, edit distance)
-src/lib/progress.ts       localStorage, mastery and weighting
+src/lib/progress.ts       record shape, buckets, mastery, weighting, merge
+src/lib/progressStore.ts  file <-> localStorage sync, debounce, flush
 src/components/Training.tsx   the four single-mode trainings
 src/components/UniversalTraining.tsx  the four-stage lesson
 src/components/SetsView.tsx   the Zestawy page — the only place sets are edited
@@ -163,8 +191,16 @@ scripts/selftest.ts       the test suite
   stage machine and the flat question queue are different flows, and merging them
   would put four working modes at risk. They share the libs (`session`, `text`,
   `tts`), not the JSX — some markup is duplicated, deliberately.
-- `App` owns the Słownik set filter so the Zestawy page can deep-link into a
-  filtered list ("Pokaż słowa"). Deleting the selected set clears it.
+- `App` owns the Słownik set filter *and* progress filter so other screens can
+  deep-link into a filtered list — the Zestawy page's "Pokaż słowa", and the
+  Postęp tiles. Deleting the selected set clears the set filter.
+- `entriesForConfig(doc, config, progress)` takes the progress map because
+  `config.progressFilter` narrows the pool. **Every caller must pass it** — omit
+  it and a bucket-filtered lesson silently comes back empty, which is exactly the
+  bug the tile tests caught.
+- A stat tile is a shortcut, not hidden state: the bucket it sets is also shown
+  in the Postęp dropdown on the training screen, so the user can see and clear
+  why their pool is small.
 - Set ids never change on rename — entries and saved training filters point at
   them. Only the display name is editable.
 

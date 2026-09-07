@@ -39,7 +39,7 @@ function sentenceMatches(given: string, expected: string): boolean {
 export default function Training(props: Props) {
   const { doc, config, progress, tts, sentenceApi, onRecord, onExampleSaved, onExit } = props;
 
-  const pool = useMemo(() => entriesForConfig(doc, config), [doc, config]);
+  const pool = useMemo(() => entriesForConfig(doc, config, progress), [doc, config, progress]);
   const [queue] = useState<VocabEntry[]>(() => pickEntries(pool, config.length, progress));
 
   const [index, setIndex] = useState(0);

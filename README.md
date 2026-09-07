@@ -48,9 +48,8 @@ that means in practice.
 ## Progress
 
 The **Postęp** card on the training screen — *już ćwiczonych / opanowanych / do
-powtórki* — is real stored data, not a per-session count. It lives in your
-browser's `localStorage` under the key `polski-trainer:progress:v1`, as one
-record per word keyed by its entry `id`:
+powtórki* — is real stored data, not a per-session count. It lives in
+`data/progress.json`, one record per word keyed by its entry `id`:
 
 ```jsonc
 {
@@ -76,16 +75,42 @@ highest weight, misses raise it, a streak lowers it, and a word answered in the
 last few hours is damped so it doesn't repeat immediately. That's why a fresh
 session doesn't just reshuffle — it leads with what you're weakest on.
 
-**This data is browser-local.** It is not in `data/vocabulary.json`, not in git,
-and not backed up. A different browser or profile, cleared site data, or a
-private window all start from zero. The vocabulary is safe in the file either
-way — only the statistics are lost.
+**It survives a cleared browser.** The file is the source of truth;
+`localStorage` is just a fast local copy. On startup the two are merged — for
+each word the more recent result wins — so clearing site data, switching
+browsers, or moving to another machine with the repo all recover your history
+rather than starting from zero. Practising with the dev server down still works;
+those answers are pushed into the file the next time you open the app.
+
+Writes to the file are debounced by two seconds and flushed when a session ends
+or the tab closes, so a 40-answer lesson is a handful of writes rather than
+forty. The previous version is kept as `data/progress.backup.json` (gitignored).
+
+Progress is deliberately kept out of `data/vocabulary.json` — otherwise every
+answer would rewrite that whole file and bury real vocabulary changes in the
+diff.
 
 Progress is keyed by entry `id`, and ids never change once assigned, so editing a
 word's spelling or meaning keeps its history. Deleting a word and re-adding it
 does not.
 
 **Ustawienia → Wyzeruj postęp** clears it deliberately.
+
+### The Postęp tiles are clickable
+
+Each figure opens the words behind it:
+
+| Tile | Does |
+|---|---|
+| **pozycji w słowniku** | opens Słownik, unfiltered |
+| **już ćwiczonych** | opens Słownik showing only those words |
+| **opanowanych** | starts a universal lesson built from those words |
+| **do powtórki** | starts a universal lesson built from your weakest words |
+
+A tile with a count of 0 is disabled. The bucket a tile picks is also shown in
+the **Postęp** dropdown on the training screen and in Słownik's toolbar, so it is
+never invisible state — change or clear it there. It composes with the set
+filter, so *Zwierzęta* + *Do powtórki* trains only the animals you keep missing.
 
 ## Sets
 

@@ -12,6 +12,7 @@ import {
   type TtsSettings,
 } from '../lib/tts';
 import { clearClips, countClips } from '../lib/audioCache';
+import { flushProgress } from '../lib/progressStore';
 
 interface Props {
   tts: TtsSettings;
@@ -29,6 +30,7 @@ export default function SettingsView({ tts, onTtsChange, status, onResetProgress
   const [error, setError] = useState('');
   const [clips, setClips] = useState(0);
   const [systemVoiceName, setSystemVoiceName] = useState<string | null>(null);
+  const [saved, setSaved] = useState(false);
 
   const refresh = (): void => {
     void piperStoredVoices().then(setStored);
@@ -204,6 +206,27 @@ export default function SettingsView({ tts, onTtsChange, status, onResetProgress
       </div>
 
       <div className="card">
+        <h2>Postęp nauki</h2>
+        <p className="sub">
+          Zapisywany do pliku, więc przetrwa wyczyszczenie przeglądarki i działa też po zmianie
+          przeglądarki.
+        </p>
+        <div className={`notice ${status ? 'info' : 'warn'}`}>
+          {status ? (
+            <>
+              ✓ Zapisywany do <code>{status.progressFile}</code>. Przy starcie plik i kopia w
+              przeglądarce są scalane — dla każdego słowa wygrywa nowszy wynik.
+            </>
+          ) : (
+            <>
+              Serwer nie odpowiada — postęp zapisuje się tylko w tej przeglądarce i trafi do pliku
+              przy następnym uruchomieniu <code>npm run dev</code>.
+            </>
+          )}
+        </div>
+      </div>
+
+      <div className="card">
         <h2>Dane</h2>
         <p className="sub">Postęp i cache audio trzymane są w tej przeglądarce.</p>
         <div className="row">
@@ -212,6 +235,9 @@ export default function SettingsView({ tts, onTtsChange, status, onResetProgress
           </span>
           <button className="btn" onClick={() => void clearClips().then(refresh)}>
             Wyczyść cache audio
+          </button>
+          <button className="btn" onClick={() => void flushProgress().then(() => setSaved(true))}>
+            {saved ? '✓ Zapisano' : 'Zapisz postęp teraz'}
           </button>
           <button
             className="btn danger"

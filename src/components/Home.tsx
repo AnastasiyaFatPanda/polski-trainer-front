@@ -1,7 +1,8 @@
 import { useMemo } from 'react';
 import type { EntryType, ProgressMap, SessionConfig, TrainingId, Vocabulary } from '../types';
 import { entriesForConfig, sessionLengthOptions } from '../lib/session';
-import { mastery } from '../lib/progress';
+import { PROGRESS_FILTER_LABELS, matchesProgress } from '../lib/progress';
+import type { ProgressFilter } from '../types';
 
 interface Props {
   doc: Vocabulary;
@@ -9,6 +10,10 @@ interface Props {
   config: SessionConfig;
   onConfigChange: (config: SessionConfig) => void;
   onStart: () => void;
+  /** Stat tile → open the słownik filtered to that bucket. */
+  onOpenVocabulary: (filter: ProgressFilter) => void;
+  /** Stat tile → start a universal lesson built from that bucket. */
+  onTrainBucket: (filter: ProgressFilter) => void;
 }
 
 const TRAININGS: { id: TrainingId; title: string; flow: string; desc: string }[] = [
@@ -44,8 +49,17 @@ const TRAININGS: { id: TrainingId; title: string; flow: string; desc: string }[]
   },
 ];
 
-export default function Home({ doc, progress, config, onConfigChange, onStart }: Props) {
-  const pool = useMemo(() => entriesForConfig(doc, config), [doc, config]);
+export default function Home({
+  doc,
+  progress,
+  config,
+  onConfigChange,
+  onStart,
+  onOpenVocabulary,
+  onTrainBucket,
+}: Props) {
+  const pool = useMemo(() => entriesForConfig(doc, config, progress), [doc, config, progress]);
+  const bucket = config.progressFilter ?? 'all';
 
   const countsBySet = useMemo(() => {
     const counts = new Map<string, number>();
@@ -55,15 +69,19 @@ export default function Home({ doc, progress, config, onConfigChange, onStart }:
     return counts;
   }, [doc]);
 
-  const stats = useMemo(() => {
-    const seen = doc.entries.filter((e) => progress[e.id]?.lastSeen).length;
-    const strong = doc.entries.filter((e) => mastery(progress[e.id]) >= 1).length;
-    const weak = doc.entries.filter((e) => {
-      const p = progress[e.id];
-      return p && p.wrong > p.correct;
-    }).length;
-    return { total: doc.entries.length, seen, strong, weak };
-  }, [doc, progress]);
+  const count = (filter: ProgressFilter): number =>
+    doc.entries.filter((e) => matchesProgress(filter, progress[e.id])).length;
+
+  const stats = useMemo(
+    () => ({
+      total: doc.entries.length,
+      seen: count('practiced'),
+      strong: count('mastered'),
+      weak: count('review'),
+    }),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [doc, progress],
+  );
 
   const toggleSet = (setId: string): void => {
     const next = config.setIds.includes(setId)
@@ -152,6 +170,25 @@ export default function Home({ doc, progress, config, onConfigChange, onStart }:
             </button>
           </div>
 
+          <label className="row" style={{ gap: 7 }}>
+            <span className="muted" style={{ fontSize: 13 }}>
+              Postęp:
+            </span>
+            <select
+              value={bucket}
+              onChange={(e) =>
+                onConfigChange({ ...config, progressFilter: e.target.value as ProgressFilter })
+              }
+              style={{ width: 'auto' }}
+            >
+              {(Object.keys(PROGRESS_FILTER_LABELS) as ProgressFilter[]).map((f) => (
+                <option key={f} value={f}>
+                  {PROGRESS_FILTER_LABELS[f]} ({count(f)})
+                </option>
+              ))}
+            </select>
+          </label>
+
           <label className="row" style={{ gap: 8, marginLeft: 'auto' }}>
             <span className="muted" style={{ fontSize: 13 }}>
               {config.training === 'universal' ? 'Słówek:' : 'Pytań:'}
@@ -188,24 +225,56 @@ export default function Home({ doc, progress, config, onConfigChange, onStart }:
 
       <div className="card">
         <h2>Postęp</h2>
-        <p className="sub">Liczony lokalnie w tej przeglądarce.</p>
+        <p className="sub">
+          Liczony lokalnie w tej przeglądarce. Kliknij kafelek, żeby otworzyć te słowa.
+        </p>
         <div className="stat-row">
-          <div className="stat">
+          <button
+            type="button"
+            className="stat clickable"
+            onClick={() => onOpenVocabulary('all')}
+            title="Otwórz słownik"
+          >
             <div className="value">{stats.total}</div>
             <div className="label">pozycji w słowniku</div>
-          </div>
-          <div className="stat">
+            <div className="go">Słownik →</div>
+          </button>
+
+          <button
+            type="button"
+            className="stat clickable"
+            disabled={stats.seen === 0}
+            onClick={() => onOpenVocabulary('practiced')}
+            title="Pokaż te słowa w słowniku"
+          >
             <div className="value">{stats.seen}</div>
             <div className="label">już ćwiczonych</div>
-          </div>
-          <div className="stat">
+            <div className="go">Słownik →</div>
+          </button>
+
+          <button
+            type="button"
+            className="stat clickable"
+            disabled={stats.strong === 0}
+            onClick={() => onTrainBucket('mastered')}
+            title="Powtórz opanowane słowa w treningu uniwersalnym"
+          >
             <div className="value">{stats.strong}</div>
             <div className="label">opanowanych</div>
-          </div>
-          <div className="stat">
+            <div className="go">Ćwicz →</div>
+          </button>
+
+          <button
+            type="button"
+            className="stat clickable"
+            disabled={stats.weak === 0}
+            onClick={() => onTrainBucket('review')}
+            title="Przećwicz słabe słowa w treningu uniwersalnym"
+          >
             <div className="value">{stats.weak}</div>
             <div className="label">do powtórki</div>
-          </div>
+            <div className="go">Ćwicz →</div>
+          </button>
         </div>
       </div>
     </>

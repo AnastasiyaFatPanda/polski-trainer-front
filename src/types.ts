@@ -37,6 +37,12 @@ export type TrainingId =
   | 'audio-ru-choice'
   | 'sentence';
 
+/**
+ * The buckets shown on the Postęp card. `lib/progress.ts` owns the predicate;
+ * this is just the name, kept here so SessionConfig doesn't import from a lib.
+ */
+export type ProgressFilter = 'all' | 'new' | 'practiced' | 'mastered' | 'review';
+
 export interface EntryProgress {
   correct: number;
   wrong: number;
@@ -58,4 +64,6 @@ export interface SessionConfig {
   setIds: string[];
   types: EntryType[];
   length: number;
+  /** Restricts the pool to one Postęp bucket. Defaults to 'all'. */
+  progressFilter?: ProgressFilter;
 }

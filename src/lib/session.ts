@@ -1,11 +1,17 @@
 import type { ProgressMap, SessionConfig, TrainingId, VocabEntry, Vocabulary } from '../types';
 import { normalize } from './text';
-import { weight } from './progress';
+import { matchesProgress, weight } from './progress';
 
-export function entriesForConfig(doc: Vocabulary, config: SessionConfig): VocabEntry[] {
+export function entriesForConfig(
+  doc: Vocabulary,
+  config: SessionConfig,
+  progress: ProgressMap = {},
+): VocabEntry[] {
   const wanted = new Set(config.setIds);
+  const bucket = config.progressFilter ?? 'all';
   return doc.entries.filter((entry) => {
     if (!config.types.includes(entry.type)) return false;
+    if (!matchesProgress(bucket, progress[entry.id])) return false;
     if (wanted.size === 0) return true;
     return entry.sets.some((setId) => wanted.has(setId));
   });

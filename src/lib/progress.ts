@@ -1,4 +1,32 @@
-import type { EntryProgress, ProgressMap } from '../types';
+import type { EntryProgress, ProgressFilter, ProgressMap } from '../types';
+
+/**
+ * The single definition of what "opanowane" and "do powtórki" mean — the stat
+ * tiles, the słownik filter and the training pool all read them from here.
+ */
+export const PROGRESS_FILTER_LABELS: Record<ProgressFilter, string> = {
+  all: 'Wszystkie',
+  new: 'Nowe',
+  practiced: 'Już ćwiczone',
+  mastered: 'Opanowane',
+  review: 'Do powtórki',
+};
+
+export function matchesProgress(filter: ProgressFilter, p: EntryProgress | undefined): boolean {
+  switch (filter) {
+    case 'new':
+      return !p?.lastSeen;
+    case 'practiced':
+      return Boolean(p?.lastSeen);
+    case 'mastered':
+      return mastery(p) >= 1;
+    case 'review':
+      return Boolean(p && p.wrong > p.correct);
+    case 'all':
+    default:
+      return true;
+  }
+}
 
 const KEY = 'polski-trainer:progress:v1';
 
@@ -17,6 +45,40 @@ export function saveProgress(map: ProgressMap): void {
   } catch {
     /* quota — progress is a nicety, not the source of truth */
   }
+}
+
+/**
+ * Merge two progress maps. Per word the record with the newer `lastSeen` wins
+ * wholesale — never field-by-field, which would double-count answers.
+ *
+ * Used to reconcile `data/progress.json` (durable, shared) with localStorage
+ * (this browser). On a tie the first argument keeps its record, so callers pass
+ * the file first: identical timestamps mean identical records anyway.
+ */
+export function mergeProgress(base: ProgressMap, incoming: ProgressMap): ProgressMap {
+  const out: ProgressMap = { ...base };
+  for (const [id, record] of Object.entries(incoming)) {
+    const existing = out[id];
+    if (!existing || record.lastSeen > existing.lastSeen) out[id] = record;
+  }
+  return out;
+}
+
+/** True when the two maps hold the same records — used to skip pointless writes. */
+export function sameProgress(a: ProgressMap, b: ProgressMap): boolean {
+  const keys = Object.keys(a);
+  if (keys.length !== Object.keys(b).length) return false;
+  return keys.every((id) => {
+    const x = a[id];
+    const y = b[id];
+    return (
+      y !== undefined &&
+      x.correct === y.correct &&
+      x.wrong === y.wrong &&
+      x.streak === y.streak &&
+      x.lastSeen === y.lastSeen
+    );
+  });
 }
 
 export function blank(): EntryProgress {

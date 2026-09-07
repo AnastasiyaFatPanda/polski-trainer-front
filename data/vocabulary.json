@@ -48,6 +48,10 @@
     {
       "id": "wyrazenia-i-idiomy",
       "name": "Wyrażenia i idiomy"
+    },
+    {
+      "id": "zmiany-czasownikow",
+      "name": "Zmiany czasowników"
     }
   ],
   "entries": [
@@ -4004,6 +4008,7420 @@
           "source": "file"
         }
       ]
+    },
+    {
+      "id": "jestem",
+      "pl": "jestem",
+      "ru": "я есть",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.115Z"
+    },
+    {
+      "id": "jestes",
+      "pl": "jesteś",
+      "ru": "ты есть",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "jest",
+      "pl": "jest",
+      "ru": "он/она/оно есть",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "jestesmy",
+      "pl": "jesteśmy",
+      "ru": "мы есть",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "jestescie",
+      "pl": "jesteście",
+      "ru": "вы есть",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "sa",
+      "pl": "są",
+      "ru": "они есть",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bylem",
+      "pl": "byłem",
+      "ru": "я был",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "byles",
+      "pl": "byłeś",
+      "ru": "ты был",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "byl",
+      "pl": "był",
+      "ru": "он был",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bylismy",
+      "pl": "byliśmy",
+      "ru": "мы были",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "byliscie",
+      "pl": "byliście",
+      "ru": "вы были",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "byli",
+      "pl": "byli",
+      "ru": "они были",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bylam",
+      "pl": "byłam",
+      "ru": "я была",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bylas",
+      "pl": "byłaś",
+      "ru": "ты была",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "byla",
+      "pl": "była",
+      "ru": "она была",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bylo",
+      "pl": "było",
+      "ru": "оно было",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bylysmy",
+      "pl": "byłyśmy",
+      "ru": "мы были",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bylyscie",
+      "pl": "byłyście",
+      "ru": "вы были",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "byly",
+      "pl": "były",
+      "ru": "они были",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bede",
+      "pl": "będę",
+      "ru": "я буду",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziesz",
+      "pl": "będziesz",
+      "ru": "ты будешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedzie",
+      "pl": "będzie",
+      "ru": "он/она/оно будет",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziemy",
+      "pl": "będziemy",
+      "ru": "мы будем",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziecie",
+      "pl": "będziecie",
+      "ru": "вы будете",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "beda",
+      "pl": "będą",
+      "ru": "они будут",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mam",
+      "pl": "mam",
+      "ru": "я имею",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "masz",
+      "pl": "masz",
+      "ru": "ты имеешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "ma",
+      "pl": "ma",
+      "ru": "он/она/оно имеет",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mamy",
+      "pl": "mamy",
+      "ru": "мы имеем",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "macie",
+      "pl": "macie",
+      "ru": "вы имеете",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "maja",
+      "pl": "mają",
+      "ru": "они имеют",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mialem",
+      "pl": "miałem",
+      "ru": "я имел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "miales",
+      "pl": "miałeś",
+      "ru": "ты имел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mial",
+      "pl": "miał",
+      "ru": "он имел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mielismy",
+      "pl": "mieliśmy",
+      "ru": "мы имели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mieliscie",
+      "pl": "mieliście",
+      "ru": "вы имели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mieli",
+      "pl": "mieli",
+      "ru": "они имели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mialam",
+      "pl": "miałam",
+      "ru": "я имела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mialas",
+      "pl": "miałaś",
+      "ru": "ты имела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "miala",
+      "pl": "miała",
+      "ru": "она имела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mialo",
+      "pl": "miało",
+      "ru": "оно имело",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mialysmy",
+      "pl": "miałyśmy",
+      "ru": "мы имели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mialyscie",
+      "pl": "miałyście",
+      "ru": "вы имели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mialy",
+      "pl": "miały",
+      "ru": "они имели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bede-mial",
+      "pl": "będę miał",
+      "ru": "я буду иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziesz-mial",
+      "pl": "będziesz miał",
+      "ru": "ты будешь иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedzie-mial",
+      "pl": "będzie miał",
+      "ru": "он будет иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziemy-mieli",
+      "pl": "będziemy mieli",
+      "ru": "мы будем иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziecie-mieli",
+      "pl": "będziecie mieli",
+      "ru": "вы будете иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "beda-mieli",
+      "pl": "będą mieli",
+      "ru": "они будут иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bede-miala",
+      "pl": "będę miała",
+      "ru": "я буду иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziesz-miala",
+      "pl": "będziesz miała",
+      "ru": "ты будешь иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedzie-miala",
+      "pl": "będzie miała",
+      "ru": "она будет иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedzie-mialo",
+      "pl": "będzie miało",
+      "ru": "оно будет иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziemy-mialy",
+      "pl": "będziemy miały",
+      "ru": "мы будем иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziecie-mialy",
+      "pl": "będziecie miały",
+      "ru": "вы будете иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "beda-mialy",
+      "pl": "będą miały",
+      "ru": "они будут иметь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "moge",
+      "pl": "mogę",
+      "ru": "я могу",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mozesz",
+      "pl": "możesz",
+      "ru": "ты можешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "moze",
+      "pl": "może",
+      "ru": "он/она/оно может",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mozemy",
+      "pl": "możemy",
+      "ru": "мы можем",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mozecie",
+      "pl": "możecie",
+      "ru": "вы можете",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "moga",
+      "pl": "mogą",
+      "ru": "они могут",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "moglem",
+      "pl": "mogłem",
+      "ru": "я мог",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mogles",
+      "pl": "mogłeś",
+      "ru": "ты мог",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mogl",
+      "pl": "mógł",
+      "ru": "он мог",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "moglismy",
+      "pl": "mogliśmy",
+      "ru": "мы могли",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mogliscie",
+      "pl": "mogliście",
+      "ru": "вы могли",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mogli",
+      "pl": "mogli",
+      "ru": "они могли",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "moglam",
+      "pl": "mogłam",
+      "ru": "я могла",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "moglas",
+      "pl": "mogłaś",
+      "ru": "ты могла",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mogla",
+      "pl": "mogła",
+      "ru": "она могла",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "moglo",
+      "pl": "mogło",
+      "ru": "оно могло",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "moglysmy",
+      "pl": "mogłyśmy",
+      "ru": "мы могли",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "moglyscie",
+      "pl": "mogłyście",
+      "ru": "вы могли",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "mogly",
+      "pl": "mogły",
+      "ru": "они могли",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bede-mogl",
+      "pl": "będę mógł",
+      "ru": "я смогу",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziesz-mogl",
+      "pl": "będziesz mógł",
+      "ru": "ты сможешь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedzie-mogl",
+      "pl": "będzie mógł",
+      "ru": "он сможет",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziemy-mogli",
+      "pl": "będziemy mogli",
+      "ru": "мы сможем",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziecie-mogli",
+      "pl": "będziecie mogli",
+      "ru": "вы сможете",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "beda-mogli",
+      "pl": "będą mogli",
+      "ru": "они смогут",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bede-mogla",
+      "pl": "będę mogła",
+      "ru": "я смогу",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziesz-mogla",
+      "pl": "będziesz mogła",
+      "ru": "ты сможешь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedzie-mogla",
+      "pl": "będzie mogła",
+      "ru": "она сможет",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedzie-moglo",
+      "pl": "będzie mogło",
+      "ru": "оно сможет",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziemy-mogly",
+      "pl": "będziemy mogły",
+      "ru": "мы сможем",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "bedziecie-mogly",
+      "pl": "będziecie mogły",
+      "ru": "вы сможете",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "beda-mogly",
+      "pl": "będą mogły",
+      "ru": "они смогут",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "musze",
+      "pl": "muszę",
+      "ru": "я должен / должна",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.116Z"
+    },
+    {
+      "id": "musisz",
+      "pl": "musisz",
+      "ru": "ты должен / должна",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musi",
+      "pl": "musi",
+      "ru": "он должен; она должна; оно должно",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musimy",
+      "pl": "musimy",
+      "ru": "мы должны",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musicie",
+      "pl": "musicie",
+      "ru": "вы должны",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musza",
+      "pl": "muszą",
+      "ru": "они должны",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musialem",
+      "pl": "musiałem",
+      "ru": "я был должен",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musiales",
+      "pl": "musiałeś",
+      "ru": "ты был должен",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musial",
+      "pl": "musiał",
+      "ru": "он был должен",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musielismy",
+      "pl": "musieliśmy",
+      "ru": "мы были должны",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musieliscie",
+      "pl": "musieliście",
+      "ru": "вы были должны",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musieli",
+      "pl": "musieli",
+      "ru": "они были должны",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musialam",
+      "pl": "musiałam",
+      "ru": "я была должна",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musialas",
+      "pl": "musiałaś",
+      "ru": "ты была должна",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musiala",
+      "pl": "musiała",
+      "ru": "она была должна",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musialo",
+      "pl": "musiało",
+      "ru": "оно было должно",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musialysmy",
+      "pl": "musiałyśmy",
+      "ru": "мы были должны",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musialyscie",
+      "pl": "musiałyście",
+      "ru": "вы были должны",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "musialy",
+      "pl": "musiały",
+      "ru": "они были должны",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bede-musial",
+      "pl": "będę musiał",
+      "ru": "я буду должен",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziesz-musial",
+      "pl": "będziesz musiał",
+      "ru": "ты будешь должен",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedzie-musial",
+      "pl": "będzie musiał",
+      "ru": "он будет должен",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziemy-musieli",
+      "pl": "będziemy musieli",
+      "ru": "мы будем должны",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziecie-musieli",
+      "pl": "będziecie musieli",
+      "ru": "вы будете должны",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "beda-musieli",
+      "pl": "będą musieli",
+      "ru": "они будут должны",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bede-musiala",
+      "pl": "będę musiała",
+      "ru": "я буду должна",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziesz-musiala",
+      "pl": "będziesz musiała",
+      "ru": "ты будешь должна",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedzie-musiala",
+      "pl": "będzie musiała",
+      "ru": "она будет должна",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedzie-musialo",
+      "pl": "będzie musiało",
+      "ru": "оно будет должно",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziemy-musialy",
+      "pl": "będziemy musiały",
+      "ru": "мы будем должны",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziecie-musialy",
+      "pl": "będziecie musiały",
+      "ru": "вы будете должны",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "beda-musialy",
+      "pl": "będą musiały",
+      "ru": "они будут должны",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "mysle",
+      "pl": "myślę",
+      "ru": "я думаю",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslisz",
+      "pl": "myślisz",
+      "ru": "ты думаешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "mysli",
+      "pl": "myśli",
+      "ru": "он/она/оно думает",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslimy",
+      "pl": "myślimy",
+      "ru": "мы думаем",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslicie",
+      "pl": "myślicie",
+      "ru": "вы думаете",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "mysla",
+      "pl": "myślą",
+      "ru": "они думают",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslalem",
+      "pl": "myślałem",
+      "ru": "я думал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslales",
+      "pl": "myślałeś",
+      "ru": "ты думал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslal",
+      "pl": "myślał",
+      "ru": "он думал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslelismy",
+      "pl": "myśleliśmy",
+      "ru": "мы думали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "mysleliscie",
+      "pl": "myśleliście",
+      "ru": "вы думали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "mysleli",
+      "pl": "myśleli",
+      "ru": "они думали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslalam",
+      "pl": "myślałam",
+      "ru": "я думала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslalas",
+      "pl": "myślałaś",
+      "ru": "ты думала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslala",
+      "pl": "myślała",
+      "ru": "она думала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslalo",
+      "pl": "myślało",
+      "ru": "оно думало",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslalysmy",
+      "pl": "myślałyśmy",
+      "ru": "мы думали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslalyscie",
+      "pl": "myślałyście",
+      "ru": "вы думали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "myslaly",
+      "pl": "myślały",
+      "ru": "они думали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bede-myslal",
+      "pl": "będę myślał",
+      "ru": "я буду думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziesz-myslal",
+      "pl": "będziesz myślał",
+      "ru": "ты будешь думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedzie-myslal",
+      "pl": "będzie myślał",
+      "ru": "он будет думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziemy-mysleli",
+      "pl": "będziemy myśleli",
+      "ru": "мы будем думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziecie-mysleli",
+      "pl": "będziecie myśleli",
+      "ru": "вы будете думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "beda-mysleli",
+      "pl": "będą myśleli",
+      "ru": "они будут думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bede-myslala",
+      "pl": "będę myślała",
+      "ru": "я буду думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziesz-myslala",
+      "pl": "będziesz myślała",
+      "ru": "ты будешь думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedzie-myslala",
+      "pl": "będzie myślała",
+      "ru": "она будет думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedzie-myslalo",
+      "pl": "będzie myślało",
+      "ru": "оно будет думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziemy-myslaly",
+      "pl": "będziemy myślały",
+      "ru": "мы будем думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziecie-myslaly",
+      "pl": "będziecie myślały",
+      "ru": "вы будете думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "beda-myslaly",
+      "pl": "będą myślały",
+      "ru": "они будут думать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chce",
+      "pl": "chcę",
+      "ru": "я хочу",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcesz",
+      "pl": "chcesz",
+      "ru": "ты хочешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chce-2",
+      "pl": "chce",
+      "ru": "он/она/оно хочет",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcemy",
+      "pl": "chcemy",
+      "ru": "мы хотим",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcecie",
+      "pl": "chcecie",
+      "ru": "вы хотите",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chca",
+      "pl": "chcą",
+      "ru": "они хотят",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcialem",
+      "pl": "chciałem",
+      "ru": "я хотел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chciales",
+      "pl": "chciałeś",
+      "ru": "ты хотел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcial",
+      "pl": "chciał",
+      "ru": "он хотел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcielismy",
+      "pl": "chcieliśmy",
+      "ru": "мы хотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcieliscie",
+      "pl": "chcieliście",
+      "ru": "вы хотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcieli",
+      "pl": "chcieli",
+      "ru": "они хотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcialam",
+      "pl": "chciałam",
+      "ru": "я хотела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcialas",
+      "pl": "chciałaś",
+      "ru": "ты хотела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chciala",
+      "pl": "chciała",
+      "ru": "она хотела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcialo",
+      "pl": "chciało",
+      "ru": "оно хотело",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcialysmy",
+      "pl": "chciałyśmy",
+      "ru": "мы хотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcialyscie",
+      "pl": "chciałyście",
+      "ru": "вы хотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "chcialy",
+      "pl": "chciały",
+      "ru": "они хотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bede-chcial",
+      "pl": "będę chciał",
+      "ru": "я буду хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziesz-chcial",
+      "pl": "będziesz chciał",
+      "ru": "ты будешь хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedzie-chcial",
+      "pl": "będzie chciał",
+      "ru": "он будет хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziemy-chcieli",
+      "pl": "będziemy chcieli",
+      "ru": "мы будем хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziecie-chcieli",
+      "pl": "będziecie chcieli",
+      "ru": "вы будете хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "beda-chcieli",
+      "pl": "będą chcieli",
+      "ru": "они будут хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bede-chciala",
+      "pl": "będę chciała",
+      "ru": "я буду хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziesz-chciala",
+      "pl": "będziesz chciała",
+      "ru": "ты будешь хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedzie-chciala",
+      "pl": "będzie chciała",
+      "ru": "она будет хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedzie-chcialo",
+      "pl": "będzie chciało",
+      "ru": "оно будет хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziemy-chcialy",
+      "pl": "będziemy chciały",
+      "ru": "мы будем хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "bedziecie-chcialy",
+      "pl": "będziecie chciały",
+      "ru": "вы будете хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "beda-chcialy",
+      "pl": "będą chciały",
+      "ru": "они будут хотеть",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcialem",
+      "pl": "zechciałem",
+      "ru": "я захотел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechciales",
+      "pl": "zechciałeś",
+      "ru": "ты захотел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcial",
+      "pl": "zechciał",
+      "ru": "он захотел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcielismy",
+      "pl": "zechcieliśmy",
+      "ru": "мы захотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcieliscie",
+      "pl": "zechcieliście",
+      "ru": "вы захотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcieli",
+      "pl": "zechcieli",
+      "ru": "они захотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcialam",
+      "pl": "zechciałam",
+      "ru": "я захотела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcialas",
+      "pl": "zechciałaś",
+      "ru": "ты захотела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechciala",
+      "pl": "zechciała",
+      "ru": "она захотела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcialo",
+      "pl": "zechciało",
+      "ru": "оно захотело",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcialysmy",
+      "pl": "zechciałyśmy",
+      "ru": "мы захотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcialyscie",
+      "pl": "zechciałyście",
+      "ru": "вы захотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcialy",
+      "pl": "zechciały",
+      "ru": "они захотели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechce",
+      "pl": "zechcę",
+      "ru": "я захочу",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcesz",
+      "pl": "zechcesz",
+      "ru": "ты захочешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechce-2",
+      "pl": "zechce",
+      "ru": "он/она/оно захочет",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcemy",
+      "pl": "zechcemy",
+      "ru": "мы захотим",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechcecie",
+      "pl": "zechcecie",
+      "ru": "вы захотите",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zechca",
+      "pl": "zechcą",
+      "ru": "они захотят",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "ide",
+      "pl": "idę",
+      "ru": "я иду (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "idziesz",
+      "pl": "idziesz",
+      "ru": "ты идёшь (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "idzie",
+      "pl": "idzie",
+      "ru": "он/она/оно идёт (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "idziemy",
+      "pl": "idziemy",
+      "ru": "мы идём (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "idziecie",
+      "pl": "idziecie",
+      "ru": "вы идёте (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "ida",
+      "pl": "idą",
+      "ru": "они идут (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szedlem",
+      "pl": "szedłem",
+      "ru": "я шёл (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szedles",
+      "pl": "szedłeś",
+      "ru": "ты шёл (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szedl",
+      "pl": "szedł",
+      "ru": "он шёл (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szlismy",
+      "pl": "szliśmy",
+      "ru": "мы шли (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szliscie",
+      "pl": "szliście",
+      "ru": "вы шли (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szli",
+      "pl": "szli",
+      "ru": "они шли (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szlam",
+      "pl": "szłam",
+      "ru": "я шла (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szlas",
+      "pl": "szłaś",
+      "ru": "ты шла (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szla",
+      "pl": "szła",
+      "ru": "она шла (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szlo",
+      "pl": "szło",
+      "ru": "оно шло (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szlysmy",
+      "pl": "szłyśmy",
+      "ru": "мы шли (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szlyscie",
+      "pl": "szłyście",
+      "ru": "вы шли (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "szly",
+      "pl": "szły",
+      "ru": "они шли (пешком, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszedlem",
+      "pl": "poszedłem",
+      "ru": "я пошёл (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszedles",
+      "pl": "poszedłeś",
+      "ru": "ты пошёл (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszedl",
+      "pl": "poszedł",
+      "ru": "он пошёл (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszlismy",
+      "pl": "poszliśmy",
+      "ru": "мы пошли (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszliscie",
+      "pl": "poszliście",
+      "ru": "вы пошли (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszli",
+      "pl": "poszli",
+      "ru": "они пошли (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszlam",
+      "pl": "poszłam",
+      "ru": "я пошла (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszlas",
+      "pl": "poszłaś",
+      "ru": "ты пошла (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszla",
+      "pl": "poszła",
+      "ru": "она пошла (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszlo",
+      "pl": "poszło",
+      "ru": "оно пошло (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszlysmy",
+      "pl": "poszłyśmy",
+      "ru": "мы пошли (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszlyscie",
+      "pl": "poszłyście",
+      "ru": "вы пошли (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "poszly",
+      "pl": "poszły",
+      "ru": "они пошли (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "pojde",
+      "pl": "pójdę",
+      "ru": "я пойду (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "pojdziesz",
+      "pl": "pójdziesz",
+      "ru": "ты пойдёшь (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "pojdzie",
+      "pl": "pójdzie",
+      "ru": "он/она/оно пойдёт (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "pojdziemy",
+      "pl": "pójdziemy",
+      "ru": "мы пойдём (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "pojdziecie",
+      "pl": "pójdziecie",
+      "ru": "вы пойдёте (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "pojda",
+      "pl": "pójdą",
+      "ru": "они пойдут (пешком, туда — однократно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jem",
+      "pl": "jem",
+      "ru": "я ем",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jesz",
+      "pl": "jesz",
+      "ru": "ты ешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "je",
+      "pl": "je",
+      "ru": "он/она/оно ест",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jemy",
+      "pl": "jemy",
+      "ru": "мы едим",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jecie",
+      "pl": "jecie",
+      "ru": "вы едите",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jedza",
+      "pl": "jedzą",
+      "ru": "они едят",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jadlem",
+      "pl": "jadłem",
+      "ru": "я ел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jadles",
+      "pl": "jadłeś",
+      "ru": "ты ел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jadl",
+      "pl": "jadł",
+      "ru": "он ел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jedlismy",
+      "pl": "jedliśmy",
+      "ru": "мы ели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jedliscie",
+      "pl": "jedliście",
+      "ru": "вы ели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jedli",
+      "pl": "jedli",
+      "ru": "они ели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jadlam",
+      "pl": "jadłam",
+      "ru": "я ела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jadlas",
+      "pl": "jadłaś",
+      "ru": "ты ела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jadla",
+      "pl": "jadła",
+      "ru": "она ела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jadlo",
+      "pl": "jadło",
+      "ru": "оно ело",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jadlysmy",
+      "pl": "jadłyśmy",
+      "ru": "мы ели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jadlyscie",
+      "pl": "jadłyście",
+      "ru": "вы ели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jadly",
+      "pl": "jadły",
+      "ru": "они ели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjadlem",
+      "pl": "zjadłem",
+      "ru": "я съел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjadles",
+      "pl": "zjadłeś",
+      "ru": "ты съел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjadl",
+      "pl": "zjadł",
+      "ru": "он съел",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjedlismy",
+      "pl": "zjedliśmy",
+      "ru": "мы съели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjedliscie",
+      "pl": "zjedliście",
+      "ru": "вы съели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjedli",
+      "pl": "zjedli",
+      "ru": "они съели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjadlam",
+      "pl": "zjadłam",
+      "ru": "я съела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjadlas",
+      "pl": "zjadłaś",
+      "ru": "ты съела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjadla",
+      "pl": "zjadła",
+      "ru": "она съела",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjadlo",
+      "pl": "zjadło",
+      "ru": "оно съело",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjadlysmy",
+      "pl": "zjadłyśmy",
+      "ru": "мы съели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjadlyscie",
+      "pl": "zjadłyście",
+      "ru": "вы съели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjadly",
+      "pl": "zjadły",
+      "ru": "они съели",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjem",
+      "pl": "zjem",
+      "ru": "я съем",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjesz",
+      "pl": "zjesz",
+      "ru": "ты съешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zje",
+      "pl": "zje",
+      "ru": "он/она/оно съест",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjemy",
+      "pl": "zjemy",
+      "ru": "мы съедим",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjecie",
+      "pl": "zjecie",
+      "ru": "вы съедите",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "zjedza",
+      "pl": "zjedzą",
+      "ru": "они съедят",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jade",
+      "pl": "jadę",
+      "ru": "я еду (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jedziesz",
+      "pl": "jedziesz",
+      "ru": "ты едешь (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jedzie",
+      "pl": "jedzie",
+      "ru": "он/она/оно едет (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jedziemy",
+      "pl": "jedziemy",
+      "ru": "мы едем (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jedziecie",
+      "pl": "jedziecie",
+      "ru": "вы едете (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jada",
+      "pl": "jadą",
+      "ru": "они едут (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechalem",
+      "pl": "jechałem",
+      "ru": "я ехал (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechales",
+      "pl": "jechałeś",
+      "ru": "ты ехал (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechal",
+      "pl": "jechał",
+      "ru": "он ехал (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechalismy",
+      "pl": "jechaliśmy",
+      "ru": "мы ехали (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechaliscie",
+      "pl": "jechaliście",
+      "ru": "вы ехали (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechali",
+      "pl": "jechali",
+      "ru": "они ехали (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechalam",
+      "pl": "jechałam",
+      "ru": "я ехала (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechalas",
+      "pl": "jechałaś",
+      "ru": "ты ехала (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechala",
+      "pl": "jechała",
+      "ru": "она ехала (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechalo",
+      "pl": "jechało",
+      "ru": "оно ехало (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechalysmy",
+      "pl": "jechałyśmy",
+      "ru": "мы ехали (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechalyscie",
+      "pl": "jechałyście",
+      "ru": "вы ехали (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "jechaly",
+      "pl": "jechały",
+      "ru": "они ехали (на транспорте, туда — сейчас)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "przyjechalem",
+      "pl": "przyjechałem",
+      "ru": "я приехал (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.117Z"
+    },
+    {
+      "id": "przyjechales",
+      "pl": "przyjechałeś",
+      "ru": "ты приехал (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechal",
+      "pl": "przyjechał",
+      "ru": "он приехал (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechalismy",
+      "pl": "przyjechaliśmy",
+      "ru": "мы приехали (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechaliscie",
+      "pl": "przyjechaliście",
+      "ru": "вы приехали (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechali",
+      "pl": "przyjechali",
+      "ru": "они приехали (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechalam",
+      "pl": "przyjechałam",
+      "ru": "я приехала (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechalas",
+      "pl": "przyjechałaś",
+      "ru": "ты приехала (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechala",
+      "pl": "przyjechała",
+      "ru": "она приехала (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechalo",
+      "pl": "przyjechało",
+      "ru": "оно приехало (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechalysmy",
+      "pl": "przyjechałyśmy",
+      "ru": "мы приехали (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechalyscie",
+      "pl": "przyjechałyście",
+      "ru": "вы приехали (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjechaly",
+      "pl": "przyjechały",
+      "ru": "они приехали (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjade",
+      "pl": "przyjadę",
+      "ru": "я приеду (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjedziesz",
+      "pl": "przyjedziesz",
+      "ru": "ты приедешь (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjedzie",
+      "pl": "przyjedzie",
+      "ru": "он/она/оно приедет (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjedziemy",
+      "pl": "przyjedziemy",
+      "ru": "мы приедем (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjedziecie",
+      "pl": "przyjedziecie",
+      "ru": "вы приедете (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjada",
+      "pl": "przyjadą",
+      "ru": "они приедут (на транспорте, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodze",
+      "pl": "chodzę",
+      "ru": "я хожу (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzisz",
+      "pl": "chodzisz",
+      "ru": "ты ходишь (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzi",
+      "pl": "chodzi",
+      "ru": "он/она/оно ходит (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzimy",
+      "pl": "chodzimy",
+      "ru": "мы ходим (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzicie",
+      "pl": "chodzicie",
+      "ru": "вы ходите (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodza",
+      "pl": "chodzą",
+      "ru": "они ходят (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzilem",
+      "pl": "chodziłem",
+      "ru": "я ходил (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodziles",
+      "pl": "chodziłeś",
+      "ru": "ты ходил (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzil",
+      "pl": "chodził",
+      "ru": "он ходил (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzilismy",
+      "pl": "chodziliśmy",
+      "ru": "мы ходили (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodziliscie",
+      "pl": "chodziliście",
+      "ru": "вы ходили (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzili",
+      "pl": "chodzili",
+      "ru": "они ходили (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzilam",
+      "pl": "chodziłam",
+      "ru": "я ходила (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzilas",
+      "pl": "chodziłaś",
+      "ru": "ты ходила (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzila",
+      "pl": "chodziła",
+      "ru": "она ходила (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzilo",
+      "pl": "chodziło",
+      "ru": "оно ходило (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzilysmy",
+      "pl": "chodziłyśmy",
+      "ru": "мы ходили (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzilyscie",
+      "pl": "chodziłyście",
+      "ru": "вы ходили (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "chodzily",
+      "pl": "chodziły",
+      "ru": "они ходили (пешком, привычно/туда-обратно)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszedlem",
+      "pl": "przyszedłem",
+      "ru": "я пришёл (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszedles",
+      "pl": "przyszedłeś",
+      "ru": "ты пришёл (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszedl",
+      "pl": "przyszedł",
+      "ru": "он пришёл (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszlismy",
+      "pl": "przyszliśmy",
+      "ru": "мы пришли (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszliscie",
+      "pl": "przyszliście",
+      "ru": "вы пришли (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszli",
+      "pl": "przyszli",
+      "ru": "они пришли (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszlam",
+      "pl": "przyszłam",
+      "ru": "я пришла (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszlas",
+      "pl": "przyszłaś",
+      "ru": "ты пришла (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszla",
+      "pl": "przyszła",
+      "ru": "она пришла (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszlo",
+      "pl": "przyszło",
+      "ru": "оно пришло (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszlysmy",
+      "pl": "przyszłyśmy",
+      "ru": "мы пришли (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszlyscie",
+      "pl": "przyszłyście",
+      "ru": "вы пришли (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyszly",
+      "pl": "przyszły",
+      "ru": "они пришли (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjde",
+      "pl": "przyjdę",
+      "ru": "я приду (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjdziesz",
+      "pl": "przyjdziesz",
+      "ru": "ты придёшь (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjdzie",
+      "pl": "przyjdzie",
+      "ru": "он/она/оно придёт (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjdziemy",
+      "pl": "przyjdziemy",
+      "ru": "мы придём (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjdziecie",
+      "pl": "przyjdziecie",
+      "ru": "вы придёте (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "przyjda",
+      "pl": "przyjdą",
+      "ru": "они придут (пешком, сюда)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "klade",
+      "pl": "kładę",
+      "ru": "я кладу",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladziesz",
+      "pl": "kładziesz",
+      "ru": "ты кладёшь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladzie",
+      "pl": "kładzie",
+      "ru": "он/она/оно кладёт",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladziemy",
+      "pl": "kładziemy",
+      "ru": "мы кладём",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladziecie",
+      "pl": "kładziecie",
+      "ru": "вы кладёте",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "klada",
+      "pl": "kładą",
+      "ru": "они кладут",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladlem",
+      "pl": "kładłem",
+      "ru": "я клал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladles",
+      "pl": "kładłeś",
+      "ru": "ты клал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladl",
+      "pl": "kładł",
+      "ru": "он клал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladlismy",
+      "pl": "kładliśmy",
+      "ru": "мы клали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladliscie",
+      "pl": "kładliście",
+      "ru": "вы клали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladli",
+      "pl": "kładli",
+      "ru": "они клали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladlam",
+      "pl": "kładłam",
+      "ru": "я клала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladlas",
+      "pl": "kładłaś",
+      "ru": "ты клала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladla",
+      "pl": "kładła",
+      "ru": "она клала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladlo",
+      "pl": "kładło",
+      "ru": "оно клало",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladlysmy",
+      "pl": "kładłyśmy",
+      "ru": "мы клали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladlyscie",
+      "pl": "kładłyście",
+      "ru": "вы клали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "kladly",
+      "pl": "kładły",
+      "ru": "они клали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozylem",
+      "pl": "położyłem",
+      "ru": "я положил",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozyles",
+      "pl": "położyłeś",
+      "ru": "ты положил",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozyl",
+      "pl": "położył",
+      "ru": "он положил",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozylismy",
+      "pl": "położyliśmy",
+      "ru": "мы положили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozyliscie",
+      "pl": "położyliście",
+      "ru": "вы положили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozyli",
+      "pl": "położyli",
+      "ru": "они положили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozylam",
+      "pl": "położyłam",
+      "ru": "я положила",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozylas",
+      "pl": "położyłaś",
+      "ru": "ты положила",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozyla",
+      "pl": "położyła",
+      "ru": "она положила",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozylo",
+      "pl": "położyło",
+      "ru": "оно положило",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozylysmy",
+      "pl": "położyłyśmy",
+      "ru": "мы положили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozylyscie",
+      "pl": "położyłyście",
+      "ru": "вы положили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozyly",
+      "pl": "położyły",
+      "ru": "они положили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poloze",
+      "pl": "położę",
+      "ru": "я положу",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozysz",
+      "pl": "położysz",
+      "ru": "ты положишь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozy",
+      "pl": "położy",
+      "ru": "он/она/оно положит",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozymy",
+      "pl": "położymy",
+      "ru": "мы положим",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "polozycie",
+      "pl": "położycie",
+      "ru": "вы положите",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poloza",
+      "pl": "położą",
+      "ru": "они положат",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spie",
+      "pl": "śpię",
+      "ru": "я сплю",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spisz",
+      "pl": "śpisz",
+      "ru": "ты спишь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spi",
+      "pl": "śpi",
+      "ru": "он/она/оно спит",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spimy",
+      "pl": "śpimy",
+      "ru": "мы спим",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spicie",
+      "pl": "śpicie",
+      "ru": "вы спите",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spia",
+      "pl": "śpią",
+      "ru": "они спят",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spalem",
+      "pl": "spałem",
+      "ru": "я спал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spales",
+      "pl": "spałeś",
+      "ru": "ты спал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spal",
+      "pl": "spał",
+      "ru": "он спал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spalismy",
+      "pl": "spaliśmy",
+      "ru": "мы спали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spaliscie",
+      "pl": "spaliście",
+      "ru": "вы спали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spali",
+      "pl": "spali",
+      "ru": "они спали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spalam",
+      "pl": "spałam",
+      "ru": "я спала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spalas",
+      "pl": "spałaś",
+      "ru": "ты спала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spala",
+      "pl": "spała",
+      "ru": "она спала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spalo",
+      "pl": "spało",
+      "ru": "оно спало",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spalysmy",
+      "pl": "spałyśmy",
+      "ru": "мы спали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spalyscie",
+      "pl": "spałyście",
+      "ru": "вы спали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "spaly",
+      "pl": "spały",
+      "ru": "они спали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnalem",
+      "pl": "zasnąłem",
+      "ru": "я заснул",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnales",
+      "pl": "zasnąłeś",
+      "ru": "ты заснул",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnal",
+      "pl": "zasnął",
+      "ru": "он заснул",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnelismy",
+      "pl": "zasnęliśmy",
+      "ru": "мы заснули",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasneliscie",
+      "pl": "zasnęliście",
+      "ru": "вы заснули",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasneli",
+      "pl": "zasnęli",
+      "ru": "они заснули",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnelam",
+      "pl": "zasnęłam",
+      "ru": "я заснула",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnelas",
+      "pl": "zasnęłaś",
+      "ru": "ты заснула",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnela",
+      "pl": "zasnęła",
+      "ru": "она заснула",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnelo",
+      "pl": "zasnęło",
+      "ru": "оно заснуло",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnelysmy",
+      "pl": "zasnęłyśmy",
+      "ru": "мы заснули",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnelyscie",
+      "pl": "zasnęłyście",
+      "ru": "вы заснули",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnely",
+      "pl": "zasnęły",
+      "ru": "они заснули",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasne",
+      "pl": "zasnę",
+      "ru": "я засну",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasniesz",
+      "pl": "zaśniesz",
+      "ru": "ты заснёшь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasnie",
+      "pl": "zaśnie",
+      "ru": "он/она/оно заснёт",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasniemy",
+      "pl": "zaśniemy",
+      "ru": "мы заснём",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasniecie",
+      "pl": "zaśniecie",
+      "ru": "вы заснёте",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zasna",
+      "pl": "zasną",
+      "ru": "они заснут",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiem",
+      "pl": "wiem",
+      "ru": "я знаю (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiesz",
+      "pl": "wiesz",
+      "ru": "ты знаешь (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wie",
+      "pl": "wie",
+      "ru": "он/она/оно знает (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiemy",
+      "pl": "wiemy",
+      "ru": "мы знаем (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiecie",
+      "pl": "wiecie",
+      "ru": "вы знаете (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedza",
+      "pl": "wiedzą",
+      "ru": "они знают (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzialem",
+      "pl": "wiedziałem",
+      "ru": "я знал (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedziales",
+      "pl": "wiedziałeś",
+      "ru": "ты знал (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzial",
+      "pl": "wiedział",
+      "ru": "он знал (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzielismy",
+      "pl": "wiedzieliśmy",
+      "ru": "мы знали (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzieliscie",
+      "pl": "wiedzieliście",
+      "ru": "вы знали (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzieli",
+      "pl": "wiedzieli",
+      "ru": "они знали (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzialam",
+      "pl": "wiedziałam",
+      "ru": "я знала (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzialas",
+      "pl": "wiedziałaś",
+      "ru": "ты знала (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedziala",
+      "pl": "wiedziała",
+      "ru": "она знала (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzialo",
+      "pl": "wiedziało",
+      "ru": "оно знало (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzialysmy",
+      "pl": "wiedziałyśmy",
+      "ru": "мы знали (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzialyscie",
+      "pl": "wiedziałyście",
+      "ru": "вы знали (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "wiedzialy",
+      "pl": "wiedziały",
+      "ru": "они знали (факт, знать что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzialem-sie",
+      "pl": "dowiedziałem się",
+      "ru": "я узнал (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedziales-sie",
+      "pl": "dowiedziałeś się",
+      "ru": "ты узнал (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzial-sie",
+      "pl": "dowiedział się",
+      "ru": "он узнал (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzielismy-sie",
+      "pl": "dowiedzieliśmy się",
+      "ru": "мы узнали (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzieliscie-sie",
+      "pl": "dowiedzieliście się",
+      "ru": "вы узнали (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzieli-sie",
+      "pl": "dowiedzieli się",
+      "ru": "они узнали (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzialam-sie",
+      "pl": "dowiedziałam się",
+      "ru": "я узнала (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzialas-sie",
+      "pl": "dowiedziałaś się",
+      "ru": "ты узнала (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedziala-sie",
+      "pl": "dowiedziała się",
+      "ru": "она узнала (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzialo-sie",
+      "pl": "dowiedziało się",
+      "ru": "оно узнало (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzialysmy-sie",
+      "pl": "dowiedziałyśmy się",
+      "ru": "мы узнали (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzialyscie-sie",
+      "pl": "dowiedziałyście się",
+      "ru": "вы узнали (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedzialy-sie",
+      "pl": "dowiedziały się",
+      "ru": "они узнали (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiem-sie",
+      "pl": "dowiem się",
+      "ru": "я узнаю (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiesz-sie",
+      "pl": "dowiesz się",
+      "ru": "ты узнаешь (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowie-sie",
+      "pl": "dowie się",
+      "ru": "он/она/оно узнает (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiemy-sie",
+      "pl": "dowiemy się",
+      "ru": "мы узнаем (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiecie-sie",
+      "pl": "dowiecie się",
+      "ru": "вы узнаете (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "dowiedza-sie",
+      "pl": "dowiedzą się",
+      "ru": "они узнают (узнать факт)",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znam",
+      "pl": "znam",
+      "ru": "я знаю (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znasz",
+      "pl": "znasz",
+      "ru": "ты знаешь (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "zna",
+      "pl": "zna",
+      "ru": "он/она/оно знает (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znamy",
+      "pl": "znamy",
+      "ru": "мы знаем (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znacie",
+      "pl": "znacie",
+      "ru": "вы знаете (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znaja",
+      "pl": "znają",
+      "ru": "они знают (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znalem",
+      "pl": "znałem",
+      "ru": "я знал (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znales",
+      "pl": "znałeś",
+      "ru": "ты знал (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znal",
+      "pl": "znał",
+      "ru": "он знал (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znalismy",
+      "pl": "znaliśmy",
+      "ru": "мы знали (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znaliscie",
+      "pl": "znaliście",
+      "ru": "вы знали (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znali",
+      "pl": "znali",
+      "ru": "они знали (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znalam",
+      "pl": "znałam",
+      "ru": "я знала (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znalas",
+      "pl": "znałaś",
+      "ru": "ты знала (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znala",
+      "pl": "znała",
+      "ru": "она знала (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znalo",
+      "pl": "znało",
+      "ru": "оно знало (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znalysmy",
+      "pl": "znałyśmy",
+      "ru": "мы знали (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znalyscie",
+      "pl": "znałyście",
+      "ru": "вы знали (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "znaly",
+      "pl": "znały",
+      "ru": "они знали (быть знакомым, знать кого/что)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznalem",
+      "pl": "poznałem",
+      "ru": "я узнал (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznales",
+      "pl": "poznałeś",
+      "ru": "ты узнал (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznal",
+      "pl": "poznał",
+      "ru": "он узнал (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznalismy",
+      "pl": "poznaliśmy",
+      "ru": "мы узнали (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznaliscie",
+      "pl": "poznaliście",
+      "ru": "вы узнали (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznali",
+      "pl": "poznali",
+      "ru": "они узнали (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznalam",
+      "pl": "poznałam",
+      "ru": "я узнала (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznalas",
+      "pl": "poznałaś",
+      "ru": "ты узнала (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznala",
+      "pl": "poznała",
+      "ru": "она узнала (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznalo",
+      "pl": "poznało",
+      "ru": "оно узнало (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznalysmy",
+      "pl": "poznałyśmy",
+      "ru": "мы узнали (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznalyscie",
+      "pl": "poznałyście",
+      "ru": "вы узнали (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznaly",
+      "pl": "poznały",
+      "ru": "они узнали (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznam",
+      "pl": "poznam",
+      "ru": "я узнаю (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznasz",
+      "pl": "poznasz",
+      "ru": "ты узнаешь (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "pozna",
+      "pl": "pozna",
+      "ru": "он/она/оно узнает (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznamy",
+      "pl": "poznamy",
+      "ru": "мы узнаем (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznacie",
+      "pl": "poznacie",
+      "ru": "вы узнаете (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "poznaja",
+      "pl": "poznają",
+      "ru": "они узнают (узнать / познакомиться)",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "ucze",
+      "pl": "uczę",
+      "ru": "я учу",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczysz",
+      "pl": "uczysz",
+      "ru": "ты учишь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczy",
+      "pl": "uczy",
+      "ru": "он/она/оно учит",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczymy",
+      "pl": "uczymy",
+      "ru": "мы учим",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczycie",
+      "pl": "uczycie",
+      "ru": "вы учите",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "ucza",
+      "pl": "uczą",
+      "ru": "они учат",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczylem",
+      "pl": "uczyłem",
+      "ru": "я учил",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczyles",
+      "pl": "uczyłeś",
+      "ru": "ты учил",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczyl",
+      "pl": "uczył",
+      "ru": "он учил",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczylismy",
+      "pl": "uczyliśmy",
+      "ru": "мы учили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczyliscie",
+      "pl": "uczyliście",
+      "ru": "вы учили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczyli",
+      "pl": "uczyli",
+      "ru": "они учили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczylam",
+      "pl": "uczyłam",
+      "ru": "я учила",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczylas",
+      "pl": "uczyłaś",
+      "ru": "ты учила",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczyla",
+      "pl": "uczyła",
+      "ru": "она учила",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczylo",
+      "pl": "uczyło",
+      "ru": "оно учило",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczylysmy",
+      "pl": "uczyłyśmy",
+      "ru": "мы учили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczylyscie",
+      "pl": "uczyłyście",
+      "ru": "вы учили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "uczyly",
+      "pl": "uczyły",
+      "ru": "они учили",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bede-uczyl",
+      "pl": "będę uczył",
+      "ru": "я буду учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bedziesz-uczyl",
+      "pl": "będziesz uczył",
+      "ru": "ты будешь учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bedzie-uczyl",
+      "pl": "będzie uczył",
+      "ru": "он будет учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bedziemy-uczyli",
+      "pl": "będziemy uczyli",
+      "ru": "мы будем учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bedziecie-uczyli",
+      "pl": "będziecie uczyli",
+      "ru": "вы будете учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "beda-uczyli",
+      "pl": "będą uczyli",
+      "ru": "они будут учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bede-uczyla",
+      "pl": "będę uczyła",
+      "ru": "я буду учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bedziesz-uczyla",
+      "pl": "będziesz uczyła",
+      "ru": "ты будешь учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bedzie-uczyla",
+      "pl": "będzie uczyła",
+      "ru": "она будет учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bedzie-uczylo",
+      "pl": "będzie uczyło",
+      "ru": "оно будет учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bedziemy-uczyly",
+      "pl": "będziemy uczyły",
+      "ru": "мы будем учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.118Z"
+    },
+    {
+      "id": "bedziecie-uczyly",
+      "pl": "będziecie uczyły",
+      "ru": "вы будете учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "beda-uczyly",
+      "pl": "będą uczyły",
+      "ru": "они будут учить",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczylem-sie",
+      "pl": "nauczyłem się",
+      "ru": "я научился",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczyles-sie",
+      "pl": "nauczyłeś się",
+      "ru": "ты научился",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczyl-sie",
+      "pl": "nauczył się",
+      "ru": "он научился",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczylismy-sie",
+      "pl": "nauczyliśmy się",
+      "ru": "мы научились",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczyliscie-sie",
+      "pl": "nauczyliście się",
+      "ru": "вы научились",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczyli-sie",
+      "pl": "nauczyli się",
+      "ru": "они научились",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczylam-sie",
+      "pl": "nauczyłam się",
+      "ru": "я научилась",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczylas-sie",
+      "pl": "nauczyłaś się",
+      "ru": "ты научилась",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczyla-sie",
+      "pl": "nauczyła się",
+      "ru": "она научилась",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczylo-sie",
+      "pl": "nauczyło się",
+      "ru": "оно научилось",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczylysmy-sie",
+      "pl": "nauczyłyśmy się",
+      "ru": "мы научились",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczylyscie-sie",
+      "pl": "nauczyłyście się",
+      "ru": "вы научились",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczyly-sie",
+      "pl": "nauczyły się",
+      "ru": "они научились",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "naucze-sie",
+      "pl": "nauczę się",
+      "ru": "я научусь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczysz-sie",
+      "pl": "nauczysz się",
+      "ru": "ты научишься",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczy-sie",
+      "pl": "nauczy się",
+      "ru": "он/она/оно научится",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczymy-sie",
+      "pl": "nauczymy się",
+      "ru": "мы научимся",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "nauczycie-sie",
+      "pl": "nauczycie się",
+      "ru": "вы научитесь",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "naucza-sie",
+      "pl": "nauczą się",
+      "ru": "они научатся",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slucham",
+      "pl": "słucham",
+      "ru": "я слушаю",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchasz",
+      "pl": "słuchasz",
+      "ru": "ты слушаешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slucha",
+      "pl": "słucha",
+      "ru": "он/она/оно слушает",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchamy",
+      "pl": "słuchamy",
+      "ru": "мы слушаем",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchacie",
+      "pl": "słuchacie",
+      "ru": "вы слушаете",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchaja",
+      "pl": "słuchają",
+      "ru": "они слушают",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchalem",
+      "pl": "słuchałem",
+      "ru": "я слушал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchales",
+      "pl": "słuchałeś",
+      "ru": "ты слушал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchal",
+      "pl": "słuchał",
+      "ru": "он слушал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchalismy",
+      "pl": "słuchaliśmy",
+      "ru": "мы слушали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchaliscie",
+      "pl": "słuchaliście",
+      "ru": "вы слушали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchali",
+      "pl": "słuchali",
+      "ru": "они слушали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchalam",
+      "pl": "słuchałam",
+      "ru": "я слушала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchalas",
+      "pl": "słuchałaś",
+      "ru": "ты слушала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchala",
+      "pl": "słuchała",
+      "ru": "она слушала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchalo",
+      "pl": "słuchało",
+      "ru": "оно слушало",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchalysmy",
+      "pl": "słuchałyśmy",
+      "ru": "мы слушали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchalyscie",
+      "pl": "słuchałyście",
+      "ru": "вы слушали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "sluchaly",
+      "pl": "słuchały",
+      "ru": "они слушали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bede-sluchal",
+      "pl": "będę słuchał",
+      "ru": "я буду слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziesz-sluchal",
+      "pl": "będziesz słuchał",
+      "ru": "ты будешь слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedzie-sluchal",
+      "pl": "będzie słuchał",
+      "ru": "он будет слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziemy-sluchali",
+      "pl": "będziemy słuchali",
+      "ru": "мы будем слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziecie-sluchali",
+      "pl": "będziecie słuchali",
+      "ru": "вы будете слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "beda-sluchali",
+      "pl": "będą słuchali",
+      "ru": "они будут слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bede-sluchala",
+      "pl": "będę słuchała",
+      "ru": "я буду слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziesz-sluchala",
+      "pl": "będziesz słuchała",
+      "ru": "ты будешь слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedzie-sluchala",
+      "pl": "będzie słuchała",
+      "ru": "она будет слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedzie-sluchalo",
+      "pl": "będzie słuchało",
+      "ru": "оно будет слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziemy-sluchaly",
+      "pl": "będziemy słuchały",
+      "ru": "мы будем слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziecie-sluchaly",
+      "pl": "będziecie słuchały",
+      "ru": "вы будете слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "beda-sluchaly",
+      "pl": "będą słuchały",
+      "ru": "они будут слушать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slysze",
+      "pl": "słyszę",
+      "ru": "я слышу",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszysz",
+      "pl": "słyszysz",
+      "ru": "ты слышишь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszy",
+      "pl": "słyszy",
+      "ru": "он/она/оно слышит",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszymy",
+      "pl": "słyszymy",
+      "ru": "мы слышим",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszycie",
+      "pl": "słyszycie",
+      "ru": "вы слышите",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slysza",
+      "pl": "słyszą",
+      "ru": "они слышат",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszalem",
+      "pl": "słyszałem",
+      "ru": "я слышал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszales",
+      "pl": "słyszałeś",
+      "ru": "ты слышал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszal",
+      "pl": "słyszał",
+      "ru": "он слышал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszelismy",
+      "pl": "słyszeliśmy",
+      "ru": "мы слышали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszeliscie",
+      "pl": "słyszeliście",
+      "ru": "вы слышали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszeli",
+      "pl": "słyszeli",
+      "ru": "они слышали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszalam",
+      "pl": "słyszałam",
+      "ru": "я слышала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszalas",
+      "pl": "słyszałaś",
+      "ru": "ты слышала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszala",
+      "pl": "słyszała",
+      "ru": "она слышала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszalo",
+      "pl": "słyszało",
+      "ru": "оно слышало",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszalysmy",
+      "pl": "słyszałyśmy",
+      "ru": "мы слышали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszalyscie",
+      "pl": "słyszałyście",
+      "ru": "вы слышали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "slyszaly",
+      "pl": "słyszały",
+      "ru": "они слышали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bede-slyszal",
+      "pl": "będę słyszał",
+      "ru": "я буду слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziesz-slyszal",
+      "pl": "będziesz słyszał",
+      "ru": "ты будешь слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedzie-slyszal",
+      "pl": "będzie słyszał",
+      "ru": "он будет слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziemy-slyszeli",
+      "pl": "będziemy słyszeli",
+      "ru": "мы будем слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziecie-slyszeli",
+      "pl": "będziecie słyszeli",
+      "ru": "вы будете слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "beda-slyszeli",
+      "pl": "będą słyszeli",
+      "ru": "они будут слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bede-slyszala",
+      "pl": "będę słyszała",
+      "ru": "я буду слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziesz-slyszala",
+      "pl": "będziesz słyszała",
+      "ru": "ты будешь слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedzie-slyszala",
+      "pl": "będzie słyszała",
+      "ru": "она будет слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedzie-slyszalo",
+      "pl": "będzie słyszało",
+      "ru": "оно будет слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziemy-slyszaly",
+      "pl": "będziemy słyszały",
+      "ru": "мы будем слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziecie-slyszaly",
+      "pl": "będziecie słyszały",
+      "ru": "вы будете слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "beda-slyszaly",
+      "pl": "będą słyszały",
+      "ru": "они будут слышать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytam",
+      "pl": "czytam",
+      "ru": "я читаю",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytasz",
+      "pl": "czytasz",
+      "ru": "ты читаешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czyta",
+      "pl": "czyta",
+      "ru": "он/она/оно читает",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytamy",
+      "pl": "czytamy",
+      "ru": "мы читаем",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytacie",
+      "pl": "czytacie",
+      "ru": "вы читаете",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytaja",
+      "pl": "czytają",
+      "ru": "они читают",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytalem",
+      "pl": "czytałem",
+      "ru": "я читал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytales",
+      "pl": "czytałeś",
+      "ru": "ты читал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytal",
+      "pl": "czytał",
+      "ru": "он читал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytalismy",
+      "pl": "czytaliśmy",
+      "ru": "мы читали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytaliscie",
+      "pl": "czytaliście",
+      "ru": "вы читали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytali",
+      "pl": "czytali",
+      "ru": "они читали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytalam",
+      "pl": "czytałam",
+      "ru": "я читала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytalas",
+      "pl": "czytałaś",
+      "ru": "ты читала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytala",
+      "pl": "czytała",
+      "ru": "она читала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytalo",
+      "pl": "czytało",
+      "ru": "оно читало",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytalysmy",
+      "pl": "czytałyśmy",
+      "ru": "мы читали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytalyscie",
+      "pl": "czytałyście",
+      "ru": "вы читали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "czytaly",
+      "pl": "czytały",
+      "ru": "они читали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bede-czytal",
+      "pl": "będę czytał",
+      "ru": "я буду читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziesz-czytal",
+      "pl": "będziesz czytał",
+      "ru": "ты будешь читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedzie-czytal",
+      "pl": "będzie czytał",
+      "ru": "он будет читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziemy-czytali",
+      "pl": "będziemy czytali",
+      "ru": "мы будем читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziecie-czytali",
+      "pl": "będziecie czytali",
+      "ru": "вы будете читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "beda-czytali",
+      "pl": "będą czytali",
+      "ru": "они будут читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bede-czytala",
+      "pl": "będę czytała",
+      "ru": "я буду читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziesz-czytala",
+      "pl": "będziesz czytała",
+      "ru": "ты будешь читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedzie-czytala",
+      "pl": "będzie czytała",
+      "ru": "она будет читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedzie-czytalo",
+      "pl": "będzie czytało",
+      "ru": "оно будет читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziemy-czytaly",
+      "pl": "będziemy czytały",
+      "ru": "мы будем читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "bedziecie-czytaly",
+      "pl": "będziecie czytały",
+      "ru": "вы будете читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "beda-czytaly",
+      "pl": "będą czytały",
+      "ru": "они будут читать",
+      "type": "phrase",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytalem",
+      "pl": "przeczytałem",
+      "ru": "я прочитал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytales",
+      "pl": "przeczytałeś",
+      "ru": "ты прочитал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytal",
+      "pl": "przeczytał",
+      "ru": "он прочитал",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytalismy",
+      "pl": "przeczytaliśmy",
+      "ru": "мы прочитали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytaliscie",
+      "pl": "przeczytaliście",
+      "ru": "вы прочитали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytali",
+      "pl": "przeczytali",
+      "ru": "они прочитали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytalam",
+      "pl": "przeczytałam",
+      "ru": "я прочитала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytalas",
+      "pl": "przeczytałaś",
+      "ru": "ты прочитала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytala",
+      "pl": "przeczytała",
+      "ru": "она прочитала",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytalo",
+      "pl": "przeczytało",
+      "ru": "оно прочитало",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytalysmy",
+      "pl": "przeczytałyśmy",
+      "ru": "мы прочитали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytalyscie",
+      "pl": "przeczytałyście",
+      "ru": "вы прочитали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytaly",
+      "pl": "przeczytały",
+      "ru": "они прочитали",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytam",
+      "pl": "przeczytam",
+      "ru": "я прочитаю",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytasz",
+      "pl": "przeczytasz",
+      "ru": "ты прочитаешь",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczyta",
+      "pl": "przeczyta",
+      "ru": "он/она/оно прочитает",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytamy",
+      "pl": "przeczytamy",
+      "ru": "мы прочитаем",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytacie",
+      "pl": "przeczytacie",
+      "ru": "вы прочитаете",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
+    },
+    {
+      "id": "przeczytaja",
+      "pl": "przeczytają",
+      "ru": "они прочитают",
+      "type": "word",
+      "sets": [
+        "zmiany-czasownikow"
+      ],
+      "examples": [],
+      "addedAt": "2026-09-07T19:30:17.119Z"
     }
   ]
 }

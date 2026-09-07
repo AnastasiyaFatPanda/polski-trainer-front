@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { ProgressMap, VocabEntry, Vocabulary } from '../types';
+import type { ProgressFilter, ProgressMap, VocabEntry, Vocabulary } from '../types';
 import type { TtsSettings } from '../lib/tts';
 import { toCsv } from '../lib/csv';
-import { mastery } from '../lib/progress';
+import { PROGRESS_FILTER_LABELS, mastery, matchesProgress } from '../lib/progress';
 import { setCounts } from '../lib/sets';
 import { normalize } from '../lib/text';
 import { SORT_LABELS, addedRank, sortEntries, type SortMode } from '../lib/vocabSort';
@@ -26,6 +26,9 @@ interface Props {
   /** Controlled by App so the Zestawy page can deep-link into a filtered list. */
   setFilter: string;
   onSetFilterChange: (setId: string) => void;
+  /** Also controlled by App, so a Postęp tile can open one bucket directly. */
+  progressFilter: ProgressFilter;
+  onProgressFilterChange: (filter: ProgressFilter) => void;
   onOpenSets: () => void;
 }
 
@@ -36,6 +39,8 @@ export default function VocabularyView({
   onChange,
   setFilter,
   onSetFilterChange,
+  progressFilter,
+  onProgressFilterChange,
   onOpenSets,
 }: Props) {
   const [query, setQuery] = useState('');
@@ -47,11 +52,11 @@ export default function VocabularyView({
 
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => setPage(1), [query, setFilter, sort, pageSize]);
+  useEffect(() => setPage(1), [query, setFilter, progressFilter, sort, pageSize]);
   // Land at the top of the new page rather than mid-list.
   useEffect(() => {
     if (scrollRef.current) scrollRef.current.scrollTop = 0;
-  }, [page, sort, pageSize, query, setFilter]);
+  }, [page, sort, pageSize, query, setFilter, progressFilter]);
 
   const setName = useMemo(() => new Map(doc.sets.map((s) => [s.id, s.name])), [doc.sets]);
 
@@ -59,10 +64,11 @@ export default function VocabularyView({
     const q = normalize(query);
     return doc.entries.filter((entry) => {
       if (setFilter && !entry.sets.includes(setFilter)) return false;
+      if (!matchesProgress(progressFilter, progress[entry.id])) return false;
       if (!q) return true;
       return normalize(entry.pl).includes(q) || normalize(entry.ru).includes(q);
     });
-  }, [doc.entries, query, setFilter]);
+  }, [doc.entries, query, setFilter, progressFilter, progress]);
 
   const rank = useMemo(() => addedRank(doc.entries), [doc.entries]);
   const sorted = useMemo(() => sortEntries(visible, sort, rank), [visible, sort, rank]);
@@ -143,6 +149,22 @@ export default function VocabularyView({
               {doc.sets.map((set) => (
                 <option key={set.id} value={set.id}>
                   {set.name} ({countsBySet.get(set.id) ?? 0})
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="row" style={{ gap: 7 }}>
+            <span className="muted" style={{ fontSize: 12.5, whiteSpace: 'nowrap' }}>
+              Postęp:
+            </span>
+            <select
+              value={progressFilter}
+              onChange={(e) => onProgressFilterChange(e.target.value as ProgressFilter)}
+              style={{ width: 'auto' }}
+            >
+              {(Object.keys(PROGRESS_FILTER_LABELS) as ProgressFilter[]).map((f) => (
+                <option key={f} value={f}>
+                  {PROGRESS_FILTER_LABELS[f]}
                 </option>
               ))}
             </select>

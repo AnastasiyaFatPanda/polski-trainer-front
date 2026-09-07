@@ -1,7 +1,15 @@
 import { useCallback, useEffect, useState } from 'react';
-import type { Example, ProgressMap, SessionConfig, Vocabulary } from './types';
+import type { Example, ProgressFilter, ProgressMap, SessionConfig, Vocabulary } from './types';
 import { getStatus, loadVocabulary, saveVocabulary, type ServerStatus } from './lib/api';
-import { loadProgress, record, saveProgress } from './lib/progress';
+import { loadProgress, record } from './lib/progress';
+import {
+  flushProgress,
+  installProgressFlush,
+  loadMergedProgress,
+  queueSaveProgress,
+  resetProgress,
+} from './lib/progressStore';
+import { sessionLengthOptions } from './lib/session';
 import { DEFAULT_TTS, type TtsSettings } from './lib/tts';
 import { useLocalStorage } from './lib/useLocalStorage';
 import Home from './components/Home';
@@ -18,6 +26,7 @@ const DEFAULT_CONFIG: SessionConfig = {
   setIds: [],
   types: ['word', 'phrase'],
   length: 20,
+  progressFilter: 'all',
 };
 
 export default function App() {
@@ -28,6 +37,7 @@ export default function App() {
   const [toast, setToast] = useState('');
   // Lifted so the Zestawy page can open the słownik already filtered.
   const [vocabSetFilter, setVocabSetFilter] = useState('');
+  const [vocabProgressFilter, setVocabProgressFilter] = useState<ProgressFilter>('all');
 
   const [progress, setProgress] = useState<ProgressMap>(() => loadProgress());
   const [tts, setTts] = useLocalStorage<TtsSettings>('polski-trainer:tts:v1', DEFAULT_TTS);
@@ -41,6 +51,9 @@ export default function App() {
     getStatus()
       .then(setStatus)
       .catch(() => setStatus(null));
+    // Start from the local copy (instant), then reconcile with data/progress.json.
+    void loadMergedProgress().then(setProgress);
+    return installProgressFlush();
   }, []);
 
   useEffect(() => {
@@ -60,9 +73,15 @@ export default function App() {
   const handleRecord = useCallback((entryId: string, correct: boolean): void => {
     setProgress((prev) => {
       const next = record(prev, entryId, correct);
-      saveProgress(next);
+      queueSaveProgress(next);
       return next;
     });
+  }, []);
+
+  /** A finished session is a natural commit point — don't wait for the debounce. */
+  const endSession = useCallback((): void => {
+    void flushProgress();
+    setView('home');
   }, []);
 
   /** A sentence generated during training was already persisted server-side. */
@@ -136,6 +155,23 @@ export default function App() {
           config={config}
           onConfigChange={setConfig}
           onStart={() => setView('training')}
+          onOpenVocabulary={(filter) => {
+            // A stat tile shows exactly its own bucket — clear the set filter.
+            setVocabSetFilter('');
+            setVocabProgressFilter(filter);
+            setView('vocab');
+          }}
+          onTrainBucket={(filter) => {
+            const allowed = sessionLengthOptions(0, 'universal');
+            setConfig({
+              ...config,
+              training: 'universal',
+              setIds: [],
+              progressFilter: filter,
+              length: allowed.includes(config.length) ? config.length : allowed[0],
+            });
+            setView('training');
+          }}
         />
       )}
 
@@ -147,7 +183,7 @@ export default function App() {
           progress={progress}
           tts={tts}
           onRecord={handleRecord}
-          onExit={() => setView('home')}
+          onExit={endSession}
         />
       )}
 
@@ -161,7 +197,7 @@ export default function App() {
           sentenceApi={Boolean(status?.sentenceApi)}
           onRecord={handleRecord}
           onExampleSaved={handleExampleSaved}
-          onExit={() => setView('home')}
+          onExit={endSession}
         />
       )}
 
@@ -173,6 +209,8 @@ export default function App() {
           onChange={updateDoc}
           setFilter={vocabSetFilter}
           onSetFilterChange={setVocabSetFilter}
+          progressFilter={vocabProgressFilter}
+          onProgressFilterChange={setVocabProgressFilter}
           onOpenSets={() => setView('sets')}
         />
       )}
@@ -200,8 +238,7 @@ export default function App() {
           status={status}
           onResetProgress={() => {
             setProgress({});
-            saveProgress({});
-            setToast('Postęp wyzerowany.');
+            void resetProgress().then(() => setToast('Postęp wyzerowany.'));
           }}
         />
       )}

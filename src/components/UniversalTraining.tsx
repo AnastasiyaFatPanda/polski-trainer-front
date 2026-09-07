@@ -26,7 +26,7 @@ interface Props {
 }
 
 export default function UniversalTraining({ doc, config, progress, tts, onRecord, onExit }: Props) {
-  const pool = useMemo(() => entriesForConfig(doc, config), [doc, config]);
+  const pool = useMemo(() => entriesForConfig(doc, config, progress), [doc, config, progress]);
   const [lesson] = useState<VocabEntry[]>(() => pickEntries(pool, config.length, progress));
   const byId = useMemo(() => new Map(lesson.map((e) => [e.id, e])), [lesson]);
 
