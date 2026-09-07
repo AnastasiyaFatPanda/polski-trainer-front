@@ -1,0 +1,1351 @@
+{
+  "version": 1,
+  "sets": [
+    {
+      "id": "zwierzeta",
+      "name": "Zwierzęta / Животные"
+    },
+    {
+      "id": "zawody",
+      "name": "Zawody / Профессии"
+    },
+    {
+      "id": "kraje",
+      "name": "Kraje / Страны"
+    },
+    {
+      "id": "zwroty",
+      "name": "Zwroty / Фразы"
+    }
+  ],
+  "entries": [
+    {
+      "id": "pies",
+      "pl": "pies",
+      "ru": "собака",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Mój pies lubi biegać po parku.",
+          "ru": "Моя собака любит бегать по парку.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kot",
+      "pl": "kot",
+      "ru": "кот, кошка",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Kot śpi na moim łóżku.",
+          "ru": "Кот спит на моей кровати.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kon",
+      "pl": "koń",
+      "ru": "лошадь, конь",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Koń biegnie przez zielone pole.",
+          "ru": "Конь бежит по зелёному полю.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "krowa",
+      "pl": "krowa",
+      "ru": "корова",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Krowa daje mleko każdego ranka.",
+          "ru": "Корова даёт молоко каждое утро.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "swinia",
+      "pl": "świnia",
+      "ru": "свинья",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Świnia leży w błocie.",
+          "ru": "Свинья лежит в грязи.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kura",
+      "pl": "kura",
+      "ru": "курица",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Kura zniosła dzisiaj trzy jajka.",
+          "ru": "Курица снесла сегодня три яйца.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kaczka",
+      "pl": "kaczka",
+      "ru": "утка",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Kaczka pływa po jeziorze.",
+          "ru": "Утка плавает по озеру.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "owca",
+      "pl": "owca",
+      "ru": "овца",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Owce pasą się na łące.",
+          "ru": "Овцы пасутся на лугу.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "niedzwiedz",
+      "pl": "niedźwiedź",
+      "ru": "медведь",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Niedźwiedź śpi całą zimę.",
+          "ru": "Медведь спит всю зиму.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wilk",
+      "pl": "wilk",
+      "ru": "волк",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Wilk mieszka w ciemnym lesie.",
+          "ru": "Волк живёт в тёмном лесу.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "lis",
+      "pl": "lis",
+      "ru": "лиса",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Lis jest bardzo sprytnym zwierzęciem.",
+          "ru": "Лиса — очень хитрое животное.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zajac",
+      "pl": "zając",
+      "ru": "заяц",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Zając szybko ucieka przed psem.",
+          "ru": "Заяц быстро убегает от собаки.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "ryba",
+      "pl": "ryba",
+      "ru": "рыба",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Ryba pływa w czystej wodzie.",
+          "ru": "Рыба плавает в чистой воде.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "ptak",
+      "pl": "ptak",
+      "ru": "птица",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Ptak śpiewa na gałęzi.",
+          "ru": "Птица поёт на ветке.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "mysz",
+      "pl": "mysz",
+      "ru": "мышь",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Mysz schowała się pod szafą.",
+          "ru": "Мышь спряталась под шкафом.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "koza",
+      "pl": "koza",
+      "ru": "коза",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Koza je trawę przy domu.",
+          "ru": "Коза ест траву возле дома.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "malpa",
+      "pl": "małpa",
+      "ru": "обезьяна",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Małpa je banana w zoo.",
+          "ru": "Обезьяна ест банан в зоопарке.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "slon",
+      "pl": "słoń",
+      "ru": "слон",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Słoń ma bardzo długą trąbę.",
+          "ru": "У слона очень длинный хобот.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zaba",
+      "pl": "żaba",
+      "ru": "лягушка",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Żaba skacze do wody.",
+          "ru": "Лягушка прыгает в воду.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "motyl",
+      "pl": "motyl",
+      "ru": "бабочка",
+      "type": "word",
+      "sets": [
+        "zwierzeta"
+      ],
+      "examples": [
+        {
+          "pl": "Motyl usiadł na czerwonym kwiatku.",
+          "ru": "Бабочка села на красный цветок.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "lekarz",
+      "pl": "lekarz",
+      "ru": "врач",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Lekarz przyjmuje pacjentów do piątej.",
+          "ru": "Врач принимает пациентов до пяти.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "nauczyciel",
+      "pl": "nauczyciel",
+      "ru": "учитель",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Nauczyciel tłumaczy nam nową lekcję.",
+          "ru": "Учитель объясняет нам новый урок.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kierowca",
+      "pl": "kierowca",
+      "ru": "водитель",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Kierowca czeka przed naszym domem.",
+          "ru": "Водитель ждёт перед нашим домом.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kucharz",
+      "pl": "kucharz",
+      "ru": "повар",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Kucharz przygotowuje obiad dla gości.",
+          "ru": "Повар готовит обед для гостей.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "sprzedawca",
+      "pl": "sprzedawca",
+      "ru": "продавец",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Sprzedawca pomógł mi wybrać buty.",
+          "ru": "Продавец помог мне выбрать обувь.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "programista",
+      "pl": "programista",
+      "ru": "программист",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Programista pisze kod cały dzień.",
+          "ru": "Программист пишет код весь день.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "prawnik",
+      "pl": "prawnik",
+      "ru": "юрист",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Prawnik przeczytał dokładnie całą umowę.",
+          "ru": "Юрист внимательно прочитал весь договор.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "inzynier",
+      "pl": "inżynier",
+      "ru": "инженер",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Inżynier projektuje nowy most.",
+          "ru": "Инженер проектирует новый мост.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "pielegniarka",
+      "pl": "pielęgniarka",
+      "ru": "медсестра",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Pielęgniarka zmierzyła mi temperaturę.",
+          "ru": "Медсестра измерила мне температуру.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "fryzjer",
+      "pl": "fryzjer",
+      "ru": "парикмахер",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Fryzjer obciął mi wczoraj włosy.",
+          "ru": "Парикмахер вчера подстриг мне волосы.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "policjant",
+      "pl": "policjant",
+      "ru": "полицейский",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Policjant stoi na skrzyżowaniu.",
+          "ru": "Полицейский стоит на перекрёстке.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "ksiegowa",
+      "pl": "księgowa",
+      "ru": "бухгалтер (женщина)",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Księgowa sprawdza faktury co miesiąc.",
+          "ru": "Бухгалтер проверяет счета каждый месяц.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dziennikarz",
+      "pl": "dziennikarz",
+      "ru": "журналист",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Dziennikarz napisał artykuł o wyborach.",
+          "ru": "Журналист написал статью о выборах.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "architekt",
+      "pl": "architekt",
+      "ru": "архитектор",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Architekt pokazał nam plany domu.",
+          "ru": "Архитектор показал нам планы дома.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "listonosz",
+      "pl": "listonosz",
+      "ru": "почтальон",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Listonosz przyniósł dzisiaj dwa listy.",
+          "ru": "Почтальон принёс сегодня два письма.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "tlumacz",
+      "pl": "tłumacz",
+      "ru": "переводчик",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Tłumacz zna cztery obce języki.",
+          "ru": "Переводчик знает четыре иностранных языка.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "kelner",
+      "pl": "kelner",
+      "ru": "официант",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Kelner przyniósł nam menu.",
+          "ru": "Официант принёс нам меню.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "mechanik",
+      "pl": "mechanik",
+      "ru": "механик",
+      "type": "word",
+      "sets": [
+        "zawody"
+      ],
+      "examples": [
+        {
+          "pl": "Mechanik naprawił mój stary samochód.",
+          "ru": "Механик починил мою старую машину.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "polska",
+      "pl": "Polska",
+      "ru": "Польша",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Polska leży w środku Europy.",
+          "ru": "Польша находится в центре Европы.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "niemcy",
+      "pl": "Niemcy",
+      "ru": "Германия",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Niemcy graniczą z Polską na zachodzie.",
+          "ru": "Германия граничит с Польшей на западе.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "ukraina",
+      "pl": "Ukraina",
+      "ru": "Украина",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Ukraina jest naszym wschodnim sąsiadem.",
+          "ru": "Украина — наш восточный сосед.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "czechy",
+      "pl": "Czechy",
+      "ru": "Чехия",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Czechy słyną z dobrego piwa.",
+          "ru": "Чехия славится хорошим пивом.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "francja",
+      "pl": "Francja",
+      "ru": "Франция",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Francja jest znana z serów.",
+          "ru": "Франция известна своими сырами.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wlochy",
+      "pl": "Włochy",
+      "ru": "Италия",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Włochy mają piękne stare miasta.",
+          "ru": "В Италии красивые старые города.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "hiszpania",
+      "pl": "Hiszpania",
+      "ru": "Испания",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Hiszpania ma ciepłe morze.",
+          "ru": "В Испании тёплое море.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wielka-brytania",
+      "pl": "Wielka Brytania",
+      "ru": "Великобритания",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Wielka Brytania leży na wyspach.",
+          "ru": "Великобритания расположена на островах.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "stany-zjednoczone",
+      "pl": "Stany Zjednoczone",
+      "ru": "США",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Stany Zjednoczone są bardzo dużym krajem.",
+          "ru": "США — очень большая страна.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "rosja",
+      "pl": "Rosja",
+      "ru": "Россия",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Rosja jest największym krajem świata.",
+          "ru": "Россия — самая большая страна мира.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "bialorus",
+      "pl": "Białoruś",
+      "ru": "Беларусь",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Białoruś graniczy z Polską i Litwą.",
+          "ru": "Беларусь граничит с Польшей и Литвой.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "litwa",
+      "pl": "Litwa",
+      "ru": "Литва",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Litwa jest małym krajem bałtyckim.",
+          "ru": "Литва — маленькая балтийская страна.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "szwecja",
+      "pl": "Szwecja",
+      "ru": "Швеция",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Szwecja leży na północy Europy.",
+          "ru": "Швеция находится на севере Европы.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "norwegia",
+      "pl": "Norwegia",
+      "ru": "Норвегия",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Norwegia ma bardzo piękne fiordy.",
+          "ru": "В Норвегии очень красивые фьорды.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "grecja",
+      "pl": "Grecja",
+      "ru": "Греция",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Grecja ma tysiące małych wysp.",
+          "ru": "В Греции тысячи маленьких островов.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "turcja",
+      "pl": "Turcja",
+      "ru": "Турция",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Turcja leży w Europie i Azji.",
+          "ru": "Турция находится в Европе и Азии.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "chiny",
+      "pl": "Chiny",
+      "ru": "Китай",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Chiny produkują większość naszej elektroniki.",
+          "ru": "Китай производит большую часть нашей электроники.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "japonia",
+      "pl": "Japonia",
+      "ru": "Япония",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Japonia słynie z nowoczesnej technologii.",
+          "ru": "Япония славится современными технологиями.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "wegry",
+      "pl": "Węgry",
+      "ru": "Венгрия",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Węgry są naszym południowym sąsiadem.",
+          "ru": "Венгрия — наш южный сосед.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "austria",
+      "pl": "Austria",
+      "ru": "Австрия",
+      "type": "word",
+      "sets": [
+        "kraje"
+      ],
+      "examples": [
+        {
+          "pl": "Austria ma wysokie góry i jeziora.",
+          "ru": "В Австрии высокие горы и озёра.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dzien-dobry",
+      "pl": "dzień dobry",
+      "ru": "добрый день, здравствуйте",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Dzień dobry, czy jest pan Kowalski?",
+          "ru": "Здравствуйте, господин Ковальский на месте?",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "do-widzenia",
+      "pl": "do widzenia",
+      "ru": "до свидания",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Do widzenia, do jutra rano.",
+          "ru": "До свидания, до завтрашнего утра.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "na-razie",
+      "pl": "na razie",
+      "ru": "пока (при прощании)",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Na razie, dzwoń wieczorem.",
+          "ru": "Пока, звони вечером.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "dziekuje-bardzo",
+      "pl": "dziękuję bardzo",
+      "ru": "большое спасибо",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Dziękuję bardzo za twoją pomoc.",
+          "ru": "Большое спасибо за твою помощь.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "prosze-bardzo",
+      "pl": "proszę bardzo",
+      "ru": "пожалуйста (вот, возьмите)",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Proszę bardzo, to twoja kawa.",
+          "ru": "Пожалуйста, вот твой кофе.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "przepraszam",
+      "pl": "przepraszam",
+      "ru": "извините, простите",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Przepraszam, gdzie jest najbliższa apteka?",
+          "ru": "Извините, где ближайшая аптека?",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "nie-ma-za-co",
+      "pl": "nie ma za co",
+      "ru": "не за что",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Nie ma za co, to drobiazg.",
+          "ru": "Не за что, это пустяк.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "jak-sie-masz",
+      "pl": "jak się masz?",
+      "ru": "как дела?",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Cześć Aniu, jak się masz?",
+          "ru": "Привет, Аня, как дела?",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "co-slychac",
+      "pl": "co słychać?",
+      "ru": "что нового?",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Dawno się nie widzieliśmy, co słychać?",
+          "ru": "Давно не виделись, что нового?",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "milo-mi",
+      "pl": "miło mi",
+      "ru": "приятно познакомиться",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Miło mi, jestem Anastazja.",
+          "ru": "Приятно познакомиться, я Анастасия.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "nie-rozumiem",
+      "pl": "nie rozumiem",
+      "ru": "я не понимаю",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Przepraszam, nie rozumiem tego słowa.",
+          "ru": "Извините, я не понимаю это слово.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "czy-mozesz-powtorzyc",
+      "pl": "czy możesz powtórzyć?",
+      "ru": "можешь повторить?",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Mówisz szybko, czy możesz powtórzyć?",
+          "ru": "Ты говоришь быстро, можешь повторить?",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "mowie-troche-po-polsku",
+      "pl": "mówię trochę po polsku",
+      "ru": "я немного говорю по-польски",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Mówię trochę po polsku, uczę się.",
+          "ru": "Я немного говорю по-польски, я учусь.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "ile-to-kosztuje",
+      "pl": "ile to kosztuje?",
+      "ru": "сколько это стоит?",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Przepraszam, ile to kosztuje?",
+          "ru": "Извините, сколько это стоит?",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "gdzie-jest-toaleta",
+      "pl": "gdzie jest toaleta?",
+      "ru": "где туалет?",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Przepraszam pana, gdzie jest toaleta?",
+          "ru": "Извините, где туалет?",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "poprosze-rachunek",
+      "pl": "poproszę rachunek",
+      "ru": "счёт, пожалуйста",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Poproszę rachunek za cały stolik.",
+          "ru": "Счёт за весь столик, пожалуйста.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "smacznego",
+      "pl": "smacznego",
+      "ru": "приятного аппетита",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Smacznego, wygląda naprawdę pysznie.",
+          "ru": "Приятного аппетита, выглядит очень вкусно.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "na-zdrowie",
+      "pl": "na zdrowie",
+      "ru": "будь здоров; за здоровье",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Na zdrowie, gratulacje z okazji awansu!",
+          "ru": "За здоровье, поздравляю с повышением!",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "do-zobaczenia",
+      "pl": "do zobaczenia",
+      "ru": "до встречи",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Do zobaczenia w przyszłym tygodniu.",
+          "ru": "До встречи на следующей неделе.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "nie-ma-sprawy",
+      "pl": "nie ma sprawy",
+      "ru": "без проблем",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Nie ma sprawy, zrobię to dzisiaj.",
+          "ru": "Без проблем, я сделаю это сегодня.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "oczywiscie",
+      "pl": "oczywiście",
+      "ru": "конечно",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Oczywiście, że mogę ci pomóc.",
+          "ru": "Конечно, я могу тебе помочь.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "niestety",
+      "pl": "niestety",
+      "ru": "к сожалению",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Niestety nie mam dzisiaj czasu.",
+          "ru": "К сожалению, у меня сегодня нет времени.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "moim-zdaniem",
+      "pl": "moim zdaniem",
+      "ru": "по-моему, на мой взгляд",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Moim zdaniem to bardzo dobry pomysł.",
+          "ru": "По-моему, это очень хорошая идея.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "w-porzadku",
+      "pl": "w porządku",
+      "ru": "хорошо, в порядке",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Wszystko w porządku, nie martw się.",
+          "ru": "Всё в порядке, не волнуйся.",
+          "source": "file"
+        }
+      ]
+    },
+    {
+      "id": "zaraz-wracam",
+      "pl": "zaraz wracam",
+      "ru": "сейчас вернусь",
+      "type": "phrase",
+      "sets": [
+        "zwroty"
+      ],
+      "examples": [
+        {
+          "pl": "Zaraz wracam, idę po kawę.",
+          "ru": "Сейчас вернусь, иду за кофе.",
+          "source": "file"
+        }
+      ]
+    }
+  ]
+}
