@@ -7,6 +7,15 @@ a Vite middleware reads and writes `data/vocabulary.json` on disk. Single user
 `README.md` covers running and using it. `Import csv konwencje.md` covers authoring
 import files. **This file covers changing the code.** Don't duplicate those here.
 
+## Git — manual only, never AI
+
+AI assistants (Claude or any other coding agent) working in this repo must
+**never** run `git commit`, `git push`, `git fetch`, or `git pull`, and must
+never stage, commit, publish, or sync changes to the remote — not even if a
+task explicitly asks for it. Publishing changes to git is done manually, by
+Duchess, only. Read-only inspection (`git status`, `git diff`, `git log`) is
+fine when it helps understand the current state.
+
 ## Commands
 
 ```bash

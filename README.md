@@ -168,6 +168,42 @@ The key is read by the Vite server process only — it is never bundled into the
 browser. Without a key the training still works on every word that has sentences
 in the file (all seeded ones do).
 
+## Running it everywhere (production deployment)
+
+Local `npm run dev` still works exactly as documented above — nothing here
+changes it. For using the app away from this machine (e.g. on an iPhone), the
+same frontend can instead talk to a real backend + database:
+
+- **[polski-trainer-api](https://github.com/AnastasiyaFatPanda/polski-trainer-api)**
+  — Express + MongoDB, same `/api/*` contract as `server/vocabApi.ts`, deployed
+  on Render.
+- **[polski-trainer-db](https://github.com/AnastasiyaFatPanda/polski-trainer-db)**
+  — schema docs + the one-time migration script that seeds Atlas from
+  `data/vocabulary.json` / `data/progress.json`, plus a backup script (Atlas's
+  free tier has no automatic backups).
+
+Build the frontend against that API instead of the dev middleware:
+
+```bash
+VITE_API_URL=https://your-render-service.onrender.com npm run build
+```
+
+Setting `VITE_API_URL` does two things: `src/lib/api.ts` calls that origin
+instead of same-origin `/api/*`, and `AuthGate` (src/components/AuthGate.tsx)
+requires the shared passphrase (`APP_PASSPHRASE` on the API) before rendering
+the app. With `VITE_API_URL` unset, both are inert — local dev is unaffected.
+
+Deploy `dist/` to Vercel (or Netlify) for free static HTTPS hosting — HTTPS is
+required for the install prompt. Once it's up:
+
+- **Desktop Chrome** shows an install icon in the address bar → installs as a
+  windowed app using `public/manifest.webmanifest` + the `Pł` icon.
+- **iPhone Safari** → Share → *Add to Home Screen* does the same.
+
+`public/sw.js` is a small hand-written service worker (no build plugin) that
+caches the app shell for offline load; it never caches `/api/*`, so vocabulary
+and progress are always fetched fresh.
+
 ## Structure
 
 ```
